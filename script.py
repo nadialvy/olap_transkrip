@@ -20,32 +20,29 @@ DB_CONFIG = {
     "host": "localhost",
     "port": 3306,
     "user": "root",
-    "password": "",  # Update with your password
-    "database": "dlh_data_warehouse",  # Menggunakan nama database baru untuk skema baru
+    "password": "",
+    "database": "dlh_transcript",
 }
 
 
 class TranscriptETL:
-    """Main ETL class for processing academic transcripts"""
-
     def __init__(self, db_config: Dict):
         self.db_config = db_config
         self.connection = None
 
     def connect_db(self) -> bool:
-        """Establish database connection"""
         try:
             self.connection = mysql.connector.connect(**self.db_config)
-            logger.info("Database connection established successfully")
+            logger.info("✅ --- Connection to the database was successful. --- ✅")
             return True
         except mysql.connector.Error as err:
-            logger.error(f"Database connection failed: {err}")
+            logger.error(f"🚨 --- Could not connect to the database: {err} --- 🚨")
             return False
 
     def create_warehouse_schema(self):
         """Create the star schema tables based on the new diagram"""
         if not self.connection:
-            logger.error("No database connection available")
+            logger.error("Database connection is not available. Cannot create schema.")
             return False
 
         cursor = self.connection.cursor()
@@ -54,7 +51,7 @@ class TranscriptETL:
         cursor.execute(f"USE {self.db_config['database']}")
 
         try:
-            # SQL DDL disesuaikan dengan skema baru
+            # SQL DDL
             table_sql = [
                 """CREATE TABLE IF NOT EXISTS Dim_Mahasiswa (
                     id_mahasiswa INT AUTO_INCREMENT PRIMARY KEY,
@@ -93,6 +90,7 @@ class TranscriptETL:
                     id_mk INT NOT NULL,
                     id_waktu INT NOT NULL,
                     id_nilai INT NOT NULL,
+                    bobot_matkul DECIMAL(4,2) NOT NULL,
                     FOREIGN KEY (id_mahasiswa) REFERENCES Dim_Mahasiswa(id_mahasiswa),
                     FOREIGN KEY (id_mk) REFERENCES Dim_MataKuliah(id_mk),
                     FOREIGN KEY (id_waktu) REFERENCES Dim_Waktu(id_waktu),
@@ -104,15 +102,15 @@ class TranscriptETL:
             for sql in table_sql:
                 cursor.execute(sql)
 
-            logger.info("Tables created successfully based on the new schema")
+            logger.info("✨ --- All tables have been created according to the schema. --- ✨")
 
             self.connection.commit()
-            logger.info("Database schema setup completed successfully")
+            logger.info("🚀 --- Database schema setup is fully complete. --- 🚀")
 
             self._insert_reference_data()
 
         except mysql.connector.Error as err:
-            logger.error(f"Error creating schema: {err}")
+            logger.error(f"Schema creation failed with error: {err}")
             self.connection.rollback()
             return False
         finally:
@@ -121,7 +119,6 @@ class TranscriptETL:
         return True
 
     def _insert_reference_data(self):
-        """Insert reference data for grades"""
         cursor = self.connection.cursor()
 
         try:
@@ -140,18 +137,17 @@ class TranscriptETL:
                     "INSERT INTO Dim_Nilai (huruf_nilai, bobot_nilai) VALUES (%s, %s)",
                     grades,
                 )
-                logger.info("Grade reference data inserted into Dim_Nilai")
+                logger.info("Initial grade data has been populated in Dim_Nilai.")
 
             self.connection.commit()
 
         except mysql.connector.Error as err:
-            logger.error(f"Error inserting reference data: {err}")
+            logger.error(f"🚨 --- Failed to insert reference data: {err} --- 🚨")
             self.connection.rollback()
         finally:
             cursor.close()
 
     def extract_pdf_text(self, pdf_path: str) -> str:
-        """Extract text from PDF file and apply advanced cleaning."""
         try:
             with open(pdf_path, "rb") as file:
                 reader = PdfReader(file)
@@ -164,41 +160,39 @@ class TranscriptETL:
                     full_text += cleaned_text + "\n"
 
                 logger.info(
-                    f"Successfully extracted and cleaned text from {os.path.basename(pdf_path)}"
+                    f"📄 --- Text extraction and cleanup finished for {os.path.basename(pdf_path)}. --- 📄"
                 )
                 return full_text
         except Exception as e:
-            logger.error(f"Error reading PDF {pdf_path}: {e}")
+            logger.error(f"🛑 --- Problem reading the PDF file {pdf_path}: {e} --- 🛑")
             return ""
 
     def parse_transcript(self, text: str) -> Optional[Dict]:
-        """Parse transcript text and extract structured data"""
         try:
             data = {"student": {}, "courses": []}
 
             student_info = self._parse_student_info(text)
             if not student_info:
-                logger.error("Failed to parse student information")
+                logger.error("🚨 --- Student information could not be parsed. --- 🚨")
                 return None
             data["student"] = student_info
 
             courses = self._parse_courses(text)
             if not courses:
-                logger.error("Failed to parse course information")
+                logger.error("🚨 --- Course information could not be parsed. --- 🚨")
                 return None
             data["courses"] = courses
 
             logger.info(
-                f"Successfully parsed transcript for {student_info['nama_mahasiswa']}"
+                f"✅ --- Transcript for {student_info['nama_mahasiswa']} has been parsed successfully. --- ✅"
             )
             return data
 
         except Exception as e:
-            logger.error(f"Error parsing transcript: {e}")
+            logger.error(f"🛑 --- An issue occurred while parsing the transcript: {e} --- 🛑")
             return None
 
     def _parse_student_info(self, text: str) -> Optional[Dict]:
-        """Parse student information from the cleaned transcript text"""
         try:
             nrp_nama_match = re.search(
                 r"NRP\s*/\s*Nama\s*(\d+)\s*/\s*(.*?)\s*SKS Tempuh", text, re.DOTALL
@@ -223,7 +217,7 @@ class TranscriptETL:
             )
 
             if not all([nrp_nama_match, sks_match, status_match, ipk_match]):
-                logger.error("Could not extract all required student header fields.")
+                logger.error("Essential student header information is missing.")
                 return None
 
             nama = re.sub(r"\s+", " ", nrp_nama_match.group(2)).strip()
@@ -250,11 +244,10 @@ class TranscriptETL:
                 ),
             }
         except Exception as e:
-            logger.error(f"Error parsing student info: {e}")
+            logger.error(f"🛑 --- Failed to parse student details: {e} --- 🛑")
             return None
 
     def _parse_courses(self, text: str) -> List[Dict]:
-        """Parse course information from the cleaned transcript text"""
         try:
             courses = []
 
@@ -298,16 +291,15 @@ class TranscriptETL:
                     }
                 )
 
-            logger.info(f"Parsed {len(courses)} courses")
+            logger.info(f"Identified and parsed {len(courses)} courses from the text.")
             return courses
         except Exception as e:
-            logger.error(f"Error parsing courses: {e}")
+            logger.error(f"An error occurred while parsing courses: {e}")
             return []
 
     def load_to_warehouse(self, data: Dict) -> bool:
-        """Load parsed data into the new data warehouse schema"""
         if not self.connection:
-            logger.error("No database connection available")
+            logger.error("Cannot load data; no active database connection.")
             return False
 
         cursor = self.connection.cursor(dictionary=True)
@@ -319,25 +311,22 @@ class TranscriptETL:
 
             success_count = 0
             for course in data["courses"]:
-                # logger.info("ini masuk for")
                 if self._load_course_fact(cursor, id_mahasiswa, course):
-                    # logger.info("ini masuk if")
                     success_count += 1
 
             self.connection.commit()
             logger.info(
-                f"Successfully loaded {success_count}/{len(data['courses'])} courses for student {data['student']['nama_mahasiswa']}"
+                f"✅ --- Load complete: {success_count}/{len(data['courses'])} course records for {data['student']['nama_mahasiswa']} were loaded. --- ✅"
             )
             return True
         except mysql.connector.Error as err:
-            logger.error(f"Database error during load: {err}")
+            logger.error(f"A database error occurred during the loading process: {err}")
             self.connection.rollback()
             return False
         finally:
             cursor.close()
 
     def _load_mahasiswa(self, cursor, student_data: Dict) -> Optional[int]:
-        """Load or update student data and return student key"""
         try:
             cursor.execute(
                 "SELECT id_mahasiswa FROM Dim_Mahasiswa WHERE NRP = %s",
@@ -367,7 +356,7 @@ class TranscriptETL:
                     WHERE id_mahasiswa = %s
                 """
                 cursor.execute(update_sql, student_columns + (id_mahasiswa,))
-                logger.info(f"Updated student: {student_data['nama_mahasiswa']}")
+                logger.info(f"Student record updated for: {student_data['nama_mahasiswa']}")
             else:
                 insert_sql = """
                     INSERT INTO Dim_Mahasiswa (
@@ -377,15 +366,14 @@ class TranscriptETL:
                 """
                 cursor.execute(insert_sql, (student_data["nrp"],) + student_columns)
                 id_mahasiswa = cursor.lastrowid
-                logger.info(f"Inserted new student: {student_data['nama_mahasiswa']}")
+                logger.info(f"New student record created for: {student_data['nama_mahasiswa']}")
 
             return id_mahasiswa
         except mysql.connector.Error as err:
-            logger.error(f"Error loading student data: {err}")
+            logger.error(f"Failed to load student data: {err}")
             return None
 
     def _load_course_fact(self, cursor, id_mahasiswa: int, course_data: Dict) -> bool:
-        """Load course, time, grade dimensions and the transcript fact"""
         try:
             id_mk = self._get_or_create_key(
                 cursor,
@@ -419,11 +407,13 @@ class TranscriptETL:
             nilai_result = cursor.fetchone()
             if not nilai_result:
                 logger.warning(
-                    f"Grade '{course_data['huruf_nilai']}' not found in Dim_Nilai. Skipping fact for {course_data['kode_mk']}."
+                    f"Grade '{course_data['huruf_nilai']}' is not defined in Dim_Nilai. Omitting fact for {course_data['kode_mk']}."
                 )
                 return False
             id_nilai = nilai_result["id_nilai"]
             bobot_nilai = nilai_result["bobot_nilai"]
+
+            bobot_matkul = course_data["sks_mk"] * bobot_nilai
 
             cursor.execute(
                 "SELECT id_transkrip FROM Fact_Transkrip WHERE id_mahasiswa = %s AND id_mk = %s AND id_waktu = %s",
@@ -433,22 +423,21 @@ class TranscriptETL:
             if not cursor.fetchone():
                 cursor.execute(
                     """INSERT INTO Fact_Transkrip 
-                    (id_mahasiswa, id_mk, id_waktu, id_nilai) 
-                    VALUES (%s, %s, %s, %s)""",
-                    (id_mahasiswa, id_mk, id_waktu, id_nilai),
+                    (id_mahasiswa, id_mk, id_waktu, id_nilai, bobot_matkul) 
+                    VALUES (%s, %s, %s, %s, %s)""",
+                    (id_mahasiswa, id_mk, id_waktu, id_nilai, bobot_matkul),
                 )
-                logger.debug(f"Inserted fact for course: {course_data['kode_mk']}")
+                logger.debug(f"Fact record inserted for course: {course_data['kode_mk']}")
             return True
         except (mysql.connector.Error, TypeError) as err:
             logger.error(
-                f"Error loading course fact for '{course_data['kode_mk']}': {err}"
+                f"Could not load course fact for '{course_data['kode_mk']}': {err}"
             )
             return False
 
     def _get_or_create_key(
         self, cursor, table, key_col, where_col, where_val, insert_sql, insert_val
     ) -> Optional[int]:
-        """Generic function to get or create a dimension key."""
         try:
             if isinstance(where_val, tuple):
                 query = f"SELECT {key_col} FROM {table} WHERE {where_col}"
@@ -465,23 +454,22 @@ class TranscriptETL:
                 cursor.execute(insert_sql, insert_val)
                 return cursor.lastrowid
         except mysql.connector.Error as err:
-            logger.error(f"Error with dimension {table}: {err}")
+            logger.error(f"Problem accessing dimension {table}: {err}")
             return None
 
     def process_folder(self, folder_path: str) -> Dict[str, int]:
-        """Process all PDF files in a folder"""
         if not os.path.isdir(folder_path):
-            logger.error(f"Folder not found: {folder_path}")
+            logger.error(f"The specified folder does not exist: {folder_path}")
             return {"processed": 0, "failed": 0}
 
         stats = {"processed": 0, "failed": 0}
 
         pdf_files = [f for f in os.listdir(folder_path) if f.lower().endswith(".pdf")]
-        logger.info(f"Found {len(pdf_files)} PDF files to process")
+        logger.info(f"Discovered {len(pdf_files)} PDF files to be processed.")
 
         for filename in pdf_files:
             pdf_path = os.path.join(folder_path, filename)
-            logger.info(f"Processing: {filename}")
+            logger.info(f"Now processing file: {filename}")
 
             try:
                 text = self.extract_pdf_text(pdf_path)
@@ -496,26 +484,24 @@ class TranscriptETL:
 
                 if self.load_to_warehouse(data):
                     stats["processed"] += 1
-                    logger.info(f"Successfully processed: {filename}")
+                    logger.info(f"✅ --- Successfully processed and loaded: {filename} --- ✅")
                 else:
                     stats["failed"] += 1
-                    logger.error(f"Failed to load: {filename}")
+                    logger.error(f"🚨 --- Failed to load data from: {filename} --- 🚨")
 
             except Exception as e:
-                logger.error(f"Error processing {filename}: {e}")
+                logger.error(f"🛑 --- A critical error occurred while handling {filename}: {e} --- 🛑")
                 stats["failed"] += 1
 
         return stats
 
     def close_connection(self):
-        """Close database connection"""
         if self.connection:
             self.connection.close()
-            logger.info("Database connection closed")
+            logger.info("Database connection has been terminated.")
 
 
 def main():
-    """Main execution function"""
     etl = TranscriptETL(DB_CONFIG)
 
     try:
@@ -530,24 +516,25 @@ def main():
         if not os.path.exists(folder_path):
             os.makedirs(folder_path)
             logger.info(
-                f"Input folder '{folder_path}' created. Please add PDF files to this folder."
+                f"The input folder '{folder_path}' was not found and has been created. Please add PDF transcripts to it."
             )
             return
 
-        logger.info("Starting transcript processing...")
+        logger.info("Beginning the transcript processing workflow...")
         stats = etl.process_folder(folder_path)
 
         logger.info("=" * 60)
-        logger.info("PROCESSING COMPLETE")
-        logger.info(f"Successfully processed: {stats['processed']} files")
-        logger.info(f"Failed to process: {stats['failed']} files")
+        logger.info("WORKFLOW COMPLETED")
+        logger.info(f"✅ --- Total files successfully processed: {stats['processed']} --- ✅")
+        logger.info(f"🚨 --- Total files that failed processing: {stats['failed']} --- 🚨")
         logger.info("=" * 60)
 
     except Exception as e:
-        logger.error(f"Unexpected error in main execution: {e}")
+        logger.error(f"An unexpected top-level error occurred: {e}")
     finally:
         etl.close_connection()
 
 
 if __name__ == "__main__":
     main()
+    
