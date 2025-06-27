@@ -972,3 +972,1127 @@
 2025-06-27 10:20:27,606 - INFO - 🚨 --- Total files that failed processing: 0 --- 🚨
 2025-06-27 10:20:27,606 - INFO - ============================================================
 2025-06-27 10:20:27,606 - INFO - Database connection has been terminated.
+2025-06-27 10:34:06,515 - INFO - package: mysql.connector.plugins
+2025-06-27 10:34:06,515 - INFO - plugin_name: mysql_native_password
+2025-06-27 10:34:06,516 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-27 10:34:06,526 - INFO - ✅ --- Connection to the database was successful. --- ✅
+2025-06-27 10:34:06,530 - INFO - ✨ --- All tables have been created according to the schema. --- ✨
+2025-06-27 10:34:06,530 - INFO - 🚀 --- Database schema setup is fully complete. --- 🚀
+2025-06-27 10:34:06,548 - INFO - Beginning the transcript processing workflow...
+2025-06-27 10:34:06,548 - INFO - Discovered 43 PDF files to be processed.
+2025-06-27 10:34:06,548 - INFO - Now processing file: Marco Indrajaya-5026231031.pdf
+2025-06-27 10:34:06,584 - INFO - 📄 --- Text extraction and cleanup finished for Marco Indrajaya-5026231031.pdf. --- 📄
+2025-06-27 10:34:06,585 - INFO - Identified and parsed 18 courses from the text.
+2025-06-27 10:34:06,585 - INFO - ✅ --- Transcript for Marco Indrajaya has been parsed successfully. --- ✅
+2025-06-27 10:34:06,594 - INFO - Student record updated for: Marco Indrajaya
+2025-06-27 10:34:06,608 - INFO - ✅ --- Load complete: 18/18 course records for Marco Indrajaya were loaded. --- ✅
+2025-06-27 10:34:06,608 - INFO - ✅ --- Successfully processed and loaded: Marco Indrajaya-5026231031.pdf --- ✅
+2025-06-27 10:34:06,608 - INFO - Now processing file: Nadia Lovely - 5026231007.pdf
+2025-06-27 10:34:06,621 - INFO - 📄 --- Text extraction and cleanup finished for Nadia Lovely - 5026231007.pdf. --- 📄
+2025-06-27 10:34:06,621 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:06,621 - INFO - ✅ --- Transcript for Nadia Lovely has been parsed successfully. --- ✅
+2025-06-27 10:34:06,621 - INFO - Student record updated for: Nadia Lovely
+2025-06-27 10:34:06,632 - INFO - ✅ --- Load complete: 19/19 course records for Nadia Lovely were loaded. --- ✅
+2025-06-27 10:34:06,632 - INFO - ✅ --- Successfully processed and loaded: Nadia Lovely - 5026231007.pdf --- ✅
+2025-06-27 10:34:06,632 - INFO - Now processing file: Muhammad Gandhi Taqi Utomo - 5026231160.pdf
+2025-06-27 10:34:06,643 - INFO - 📄 --- Text extraction and cleanup finished for Muhammad Gandhi Taqi Utomo - 5026231160.pdf. --- 📄
+2025-06-27 10:34:06,643 - INFO - Identified and parsed 18 courses from the text.
+2025-06-27 10:34:06,643 - INFO - ✅ --- Transcript for Muhammad Gandhi Taqi Utomo has been parsed successfully. --- ✅
+2025-06-27 10:34:06,645 - INFO - Student record updated for: Muhammad Gandhi Taqi Utomo
+2025-06-27 10:34:06,658 - INFO - ✅ --- Load complete: 18/18 course records for Muhammad Gandhi Taqi Utomo were loaded. --- ✅
+2025-06-27 10:34:06,658 - INFO - ✅ --- Successfully processed and loaded: Muhammad Gandhi Taqi Utomo - 5026231160.pdf --- ✅
+2025-06-27 10:34:06,658 - INFO - Now processing file: Muhammad Daniel Alfarisi - 5026231161.pdf
+2025-06-27 10:34:06,670 - INFO - 📄 --- Text extraction and cleanup finished for Muhammad Daniel Alfarisi - 5026231161.pdf. --- 📄
+2025-06-27 10:34:06,670 - INFO - Identified and parsed 18 courses from the text.
+2025-06-27 10:34:06,670 - INFO - ✅ --- Transcript for Muhammad Daniel Alfarisi has been parsed successfully. --- ✅
+2025-06-27 10:34:06,671 - INFO - Student record updated for: Muhammad Daniel Alfarisi
+2025-06-27 10:34:06,680 - INFO - ✅ --- Load complete: 18/18 course records for Muhammad Daniel Alfarisi were loaded. --- ✅
+2025-06-27 10:34:06,680 - INFO - ✅ --- Successfully processed and loaded: Muhammad Daniel Alfarisi - 5026231161.pdf --- ✅
+2025-06-27 10:34:06,680 - INFO - Now processing file: Naura Salsabila - 5026231173.pdf
+2025-06-27 10:34:06,692 - INFO - 📄 --- Text extraction and cleanup finished for Naura Salsabila - 5026231173.pdf. --- 📄
+2025-06-27 10:34:06,692 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:06,692 - INFO - ✅ --- Transcript for Naur a Salsabila has been parsed successfully. --- ✅
+2025-06-27 10:34:06,693 - INFO - Student record updated for: Naur a Salsabila
+2025-06-27 10:34:06,703 - INFO - ✅ --- Load complete: 19/19 course records for Naur a Salsabila were loaded. --- ✅
+2025-06-27 10:34:06,703 - INFO - ✅ --- Successfully processed and loaded: Naura Salsabila - 5026231173.pdf --- ✅
+2025-06-27 10:34:06,703 - INFO - Now processing file: Muhammad Zaky Al Khair - 5026231069.pdf
+2025-06-27 10:34:06,728 - INFO - 📄 --- Text extraction and cleanup finished for Muhammad Zaky Al Khair - 5026231069.pdf. --- 📄
+2025-06-27 10:34:06,728 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:06,728 - INFO - ✅ --- Transcript for Muhammad Zaky Al Khair has been parsed successfully. --- ✅
+2025-06-27 10:34:06,729 - INFO - Student record updated for: Muhammad Zaky Al Khair
+2025-06-27 10:34:06,740 - INFO - ✅ --- Load complete: 19/19 course records for Muhammad Zaky Al Khair were loaded. --- ✅
+2025-06-27 10:34:06,740 - INFO - ✅ --- Successfully processed and loaded: Muhammad Zaky Al Khair - 5026231069.pdf --- ✅
+2025-06-27 10:34:06,740 - INFO - Now processing file: Nadia Ayula Assyaputri - 5026231090.pdf
+2025-06-27 10:34:06,752 - INFO - 📄 --- Text extraction and cleanup finished for Nadia Ayula Assyaputri - 5026231090.pdf. --- 📄
+2025-06-27 10:34:06,752 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:06,752 - INFO - ✅ --- Transcript for Nadia Ayula Assy aputri has been parsed successfully. --- ✅
+2025-06-27 10:34:06,753 - INFO - Student record updated for: Nadia Ayula Assy aputri
+2025-06-27 10:34:06,762 - INFO - ✅ --- Load complete: 19/19 course records for Nadia Ayula Assy aputri were loaded. --- ✅
+2025-06-27 10:34:06,762 - INFO - ✅ --- Successfully processed and loaded: Nadia Ayula Assyaputri - 5026231090.pdf --- ✅
+2025-06-27 10:34:06,762 - INFO - Now processing file: William Bryan Pangestu - 5026231011.pdf
+2025-06-27 10:34:06,773 - INFO - 📄 --- Text extraction and cleanup finished for William Bryan Pangestu - 5026231011.pdf. --- 📄
+2025-06-27 10:34:06,773 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:06,773 - INFO - ✅ --- Transcript for William Bry an Pangestu has been parsed successfully. --- ✅
+2025-06-27 10:34:06,774 - INFO - Student record updated for: William Bry an Pangestu
+2025-06-27 10:34:06,783 - INFO - ✅ --- Load complete: 19/19 course records for William Bry an Pangestu were loaded. --- ✅
+2025-06-27 10:34:06,783 - INFO - ✅ --- Successfully processed and loaded: William Bryan Pangestu - 5026231011.pdf --- ✅
+2025-06-27 10:34:06,783 - INFO - Now processing file: Aqilah Ummu - 5026231140.pdf
+2025-06-27 10:34:06,803 - INFO - 📄 --- Text extraction and cleanup finished for Aqilah Ummu - 5026231140.pdf. --- 📄
+2025-06-27 10:34:06,803 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:06,803 - INFO - ✅ --- Transcript for Aqilah Ummu Al Na wiswary has been parsed successfully. --- ✅
+2025-06-27 10:34:06,804 - INFO - Student record updated for: Aqilah Ummu Al Na wiswary
+2025-06-27 10:34:06,814 - INFO - ✅ --- Load complete: 19/19 course records for Aqilah Ummu Al Na wiswary were loaded. --- ✅
+2025-06-27 10:34:06,814 - INFO - ✅ --- Successfully processed and loaded: Aqilah Ummu - 5026231140.pdf --- ✅
+2025-06-27 10:34:06,814 - INFO - Now processing file: Muhammad Fawwaz Athaillah Anwar - 5026231157.pdf
+2025-06-27 10:34:06,838 - INFO - 📄 --- Text extraction and cleanup finished for Muhammad Fawwaz Athaillah Anwar - 5026231157.pdf. --- 📄
+2025-06-27 10:34:06,838 - INFO - Identified and parsed 13 courses from the text.
+2025-06-27 10:34:06,838 - INFO - ✅ --- Transcript for Muhammad Fawwaz Athaillah Anwar has been parsed successfully. --- ✅
+2025-06-27 10:34:06,839 - INFO - Student record updated for: Muhammad Fawwaz Athaillah Anwar
+2025-06-27 10:34:06,846 - INFO - ✅ --- Load complete: 13/13 course records for Muhammad Fawwaz Athaillah Anwar were loaded. --- ✅
+2025-06-27 10:34:06,846 - INFO - ✅ --- Successfully processed and loaded: Muhammad Fawwaz Athaillah Anwar - 5026231157.pdf --- ✅
+2025-06-27 10:34:06,846 - INFO - Now processing file: Putu Arya Yubi Wirayudha - 5026231165.pdf
+2025-06-27 10:34:06,857 - INFO - 📄 --- Text extraction and cleanup finished for Putu Arya Yubi Wirayudha - 5026231165.pdf. --- 📄
+2025-06-27 10:34:06,857 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:06,857 - INFO - ✅ --- Transcript for Putu Ary a Yubi Wir ayudha has been parsed successfully. --- ✅
+2025-06-27 10:34:06,858 - INFO - Student record updated for: Putu Ary a Yubi Wir ayudha
+2025-06-27 10:34:06,868 - INFO - ✅ --- Load complete: 19/19 course records for Putu Ary a Yubi Wir ayudha were loaded. --- ✅
+2025-06-27 10:34:06,868 - INFO - ✅ --- Successfully processed and loaded: Putu Arya Yubi Wirayudha - 5026231165.pdf --- ✅
+2025-06-27 10:34:06,868 - INFO - Now processing file: Vivi Alvianita - 5026231226.pdf
+2025-06-27 10:34:06,879 - INFO - 📄 --- Text extraction and cleanup finished for Vivi Alvianita - 5026231226.pdf. --- 📄
+2025-06-27 10:34:06,879 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:06,879 - INFO - ✅ --- Transcript for Vivi Alvianita has been parsed successfully. --- ✅
+2025-06-27 10:34:06,879 - INFO - Student record updated for: Vivi Alvianita
+2025-06-27 10:34:06,889 - INFO - ✅ --- Load complete: 19/19 course records for Vivi Alvianita were loaded. --- ✅
+2025-06-27 10:34:06,889 - INFO - ✅ --- Successfully processed and loaded: Vivi Alvianita - 5026231226.pdf --- ✅
+2025-06-27 10:34:06,889 - INFO - Now processing file: Clay Amsal Sebastian Hutabarat - 5026231132.pdf
+2025-06-27 10:34:06,918 - INFO - 📄 --- Text extraction and cleanup finished for Clay Amsal Sebastian Hutabarat - 5026231132.pdf. --- 📄
+2025-06-27 10:34:06,919 - INFO - Identified and parsed 18 courses from the text.
+2025-06-27 10:34:06,919 - INFO - ✅ --- Transcript for Clay Amsal Sebastian Hutabarat has been parsed successfully. --- ✅
+2025-06-27 10:34:06,919 - INFO - Student record updated for: Clay Amsal Sebastian Hutabarat
+2025-06-27 10:34:06,929 - INFO - ✅ --- Load complete: 18/18 course records for Clay Amsal Sebastian Hutabarat were loaded. --- ✅
+2025-06-27 10:34:06,929 - INFO - ✅ --- Successfully processed and loaded: Clay Amsal Sebastian Hutabarat - 5026231132.pdf --- ✅
+2025-06-27 10:34:06,929 - INFO - Now processing file: Hilman Mumtaz Sya_bani_5026231078.pdf
+2025-06-27 10:34:06,940 - INFO - 📄 --- Text extraction and cleanup finished for Hilman Mumtaz Sya_bani_5026231078.pdf. --- 📄
+2025-06-27 10:34:06,940 - INFO - Identified and parsed 20 courses from the text.
+2025-06-27 10:34:06,940 - INFO - ✅ --- Transcript for Hilman Mumtaz Sya`bani has been parsed successfully. --- ✅
+2025-06-27 10:34:06,941 - INFO - Student record updated for: Hilman Mumtaz Sya`bani
+2025-06-27 10:34:06,951 - INFO - ✅ --- Load complete: 20/20 course records for Hilman Mumtaz Sya`bani were loaded. --- ✅
+2025-06-27 10:34:06,951 - INFO - ✅ --- Successfully processed and loaded: Hilman Mumtaz Sya_bani_5026231078.pdf --- ✅
+2025-06-27 10:34:06,951 - INFO - Now processing file: Nailah Qonitah Firdausa - 5026231106.pdf
+2025-06-27 10:34:06,994 - INFO - 📄 --- Text extraction and cleanup finished for Nailah Qonitah Firdausa - 5026231106.pdf. --- 📄
+2025-06-27 10:34:06,994 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:06,994 - INFO - ✅ --- Transcript for Nailah Qonitah Firdausa has been parsed successfully. --- ✅
+2025-06-27 10:34:06,995 - INFO - Student record updated for: Nailah Qonitah Firdausa
+2025-06-27 10:34:07,005 - INFO - ✅ --- Load complete: 19/19 course records for Nailah Qonitah Firdausa were loaded. --- ✅
+2025-06-27 10:34:07,005 - INFO - ✅ --- Successfully processed and loaded: Nailah Qonitah Firdausa - 5026231106.pdf --- ✅
+2025-06-27 10:34:07,005 - INFO - Now processing file: ibrahim amar alfanani-5026231195.pdf
+2025-06-27 10:34:07,036 - INFO - 📄 --- Text extraction and cleanup finished for ibrahim amar alfanani-5026231195.pdf. --- 📄
+2025-06-27 10:34:07,036 - INFO - Identified and parsed 18 courses from the text.
+2025-06-27 10:34:07,036 - INFO - ✅ --- Transcript for Ibrahim Amar Alfanani has been parsed successfully. --- ✅
+2025-06-27 10:34:07,037 - INFO - Student record updated for: Ibrahim Amar Alfanani
+2025-06-27 10:34:07,047 - INFO - ✅ --- Load complete: 18/18 course records for Ibrahim Amar Alfanani were loaded. --- ✅
+2025-06-27 10:34:07,047 - INFO - ✅ --- Successfully processed and loaded: ibrahim amar alfanani-5026231195.pdf --- ✅
+2025-06-27 10:34:07,047 - INFO - Now processing file: Faris Abqori - 5026231015.pdf
+2025-06-27 10:34:07,067 - INFO - 📄 --- Text extraction and cleanup finished for Faris Abqori - 5026231015.pdf. --- 📄
+2025-06-27 10:34:07,068 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:07,068 - INFO - ✅ --- Transcript for Faris Abqori has been parsed successfully. --- ✅
+2025-06-27 10:34:07,068 - INFO - Student record updated for: Faris Abqori
+2025-06-27 10:34:07,077 - INFO - ✅ --- Load complete: 19/19 course records for Faris Abqori were loaded. --- ✅
+2025-06-27 10:34:07,078 - INFO - ✅ --- Successfully processed and loaded: Faris Abqori - 5026231015.pdf --- ✅
+2025-06-27 10:34:07,078 - INFO - Now processing file: Nadya Luthfiyah Rahma - 5026231023.pdf
+2025-06-27 10:34:07,090 - INFO - 📄 --- Text extraction and cleanup finished for Nadya Luthfiyah Rahma - 5026231023.pdf. --- 📄
+2025-06-27 10:34:07,090 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:07,090 - INFO - ✅ --- Transcript for Nady a Luthfiy ah Rahma has been parsed successfully. --- ✅
+2025-06-27 10:34:07,091 - INFO - Student record updated for: Nady a Luthfiy ah Rahma
+2025-06-27 10:34:07,100 - INFO - ✅ --- Load complete: 19/19 course records for Nady a Luthfiy ah Rahma were loaded. --- ✅
+2025-06-27 10:34:07,100 - INFO - ✅ --- Successfully processed and loaded: Nadya Luthfiyah Rahma - 5026231023.pdf --- ✅
+2025-06-27 10:34:07,100 - INFO - Now processing file: Muhammad Rajja Fadzell Auraffa A - 5026231110.pdf
+2025-06-27 10:34:07,121 - INFO - 📄 --- Text extraction and cleanup finished for Muhammad Rajja Fadzell Auraffa A - 5026231110.pdf. --- 📄
+2025-06-27 10:34:07,121 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:07,121 - INFO - ✅ --- Transcript for Muhammad Rajja Fadzell Auraffa Ariandi has been parsed successfully. --- ✅
+2025-06-27 10:34:07,122 - INFO - Student record updated for: Muhammad Rajja Fadzell Auraffa Ariandi
+2025-06-27 10:34:07,131 - INFO - ✅ --- Load complete: 19/19 course records for Muhammad Rajja Fadzell Auraffa Ariandi were loaded. --- ✅
+2025-06-27 10:34:07,131 - INFO - ✅ --- Successfully processed and loaded: Muhammad Rajja Fadzell Auraffa A - 5026231110.pdf --- ✅
+2025-06-27 10:34:07,131 - INFO - Now processing file: Nathaniel Lado Hadi Winata - 5026231019.pdf
+2025-06-27 10:34:07,163 - INFO - 📄 --- Text extraction and cleanup finished for Nathaniel Lado Hadi Winata - 5026231019.pdf. --- 📄
+2025-06-27 10:34:07,164 - INFO - Identified and parsed 18 courses from the text.
+2025-06-27 10:34:07,164 - INFO - ✅ --- Transcript for Nathaniel Lado Hadi Winata has been parsed successfully. --- ✅
+2025-06-27 10:34:07,165 - INFO - Student record updated for: Nathaniel Lado Hadi Winata
+2025-06-27 10:34:07,176 - INFO - ✅ --- Load complete: 18/18 course records for Nathaniel Lado Hadi Winata were loaded. --- ✅
+2025-06-27 10:34:07,176 - INFO - ✅ --- Successfully processed and loaded: Nathaniel Lado Hadi Winata - 5026231019.pdf --- ✅
+2025-06-27 10:34:07,176 - INFO - Now processing file: Gerald Marcell Van Rayne - 5026231073.pdf
+2025-06-27 10:34:07,217 - INFO - 📄 --- Text extraction and cleanup finished for Gerald Marcell Van Rayne - 5026231073.pdf. --- 📄
+2025-06-27 10:34:07,217 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:07,217 - INFO - ✅ --- Transcript for Gerald Marcell Van Rayne has been parsed successfully. --- ✅
+2025-06-27 10:34:07,219 - INFO - Student record updated for: Gerald Marcell Van Rayne
+2025-06-27 10:34:07,238 - INFO - ✅ --- Load complete: 19/19 course records for Gerald Marcell Van Rayne were loaded. --- ✅
+2025-06-27 10:34:07,238 - INFO - ✅ --- Successfully processed and loaded: Gerald Marcell Van Rayne - 5026231073.pdf --- ✅
+2025-06-27 10:34:07,238 - INFO - Now processing file: Antony Purnamarasid August Ratulangi - 5026231190.pdf
+2025-06-27 10:34:07,248 - INFO - 📄 --- Text extraction and cleanup finished for Antony Purnamarasid August Ratulangi - 5026231190.pdf. --- 📄
+2025-06-27 10:34:07,248 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:07,248 - INFO - ✅ --- Transcript for Anton y Purnamar asid August Ratulangi has been parsed successfully. --- ✅
+2025-06-27 10:34:07,249 - INFO - Student record updated for: Anton y Purnamar asid August Ratulangi
+2025-06-27 10:34:07,261 - INFO - ✅ --- Load complete: 19/19 course records for Anton y Purnamar asid August Ratulangi were loaded. --- ✅
+2025-06-27 10:34:07,261 - INFO - ✅ --- Successfully processed and loaded: Antony Purnamarasid August Ratulangi - 5026231190.pdf --- ✅
+2025-06-27 10:34:07,261 - INFO - Now processing file: Beh Siu Li_5026231065 (2).pdf
+2025-06-27 10:34:07,292 - INFO - 📄 --- Text extraction and cleanup finished for Beh Siu Li_5026231065 (2).pdf. --- 📄
+2025-06-27 10:34:07,292 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:07,292 - INFO - ✅ --- Transcript for Beh Siu Li has been parsed successfully. --- ✅
+2025-06-27 10:34:07,294 - INFO - Student record updated for: Beh Siu Li
+2025-06-27 10:34:07,305 - INFO - ✅ --- Load complete: 19/19 course records for Beh Siu Li were loaded. --- ✅
+2025-06-27 10:34:07,305 - INFO - ✅ --- Successfully processed and loaded: Beh Siu Li_5026231065 (2).pdf --- ✅
+2025-06-27 10:34:07,305 - INFO - Now processing file: Ahmed Miftah Ghiffari - 5026231102.pdf
+2025-06-27 10:34:07,316 - INFO - 📄 --- Text extraction and cleanup finished for Ahmed Miftah Ghiffari - 5026231102.pdf. --- 📄
+2025-06-27 10:34:07,316 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:07,316 - INFO - ✅ --- Transcript for Ahmed Miftah Ghiffari has been parsed successfully. --- ✅
+2025-06-27 10:34:07,317 - INFO - Student record updated for: Ahmed Miftah Ghiffari
+2025-06-27 10:34:07,328 - INFO - ✅ --- Load complete: 19/19 course records for Ahmed Miftah Ghiffari were loaded. --- ✅
+2025-06-27 10:34:07,328 - INFO - ✅ --- Successfully processed and loaded: Ahmed Miftah Ghiffari - 5026231102.pdf --- ✅
+2025-06-27 10:34:07,328 - INFO - Now processing file: Davina Almeira - 5026231094.pdf
+2025-06-27 10:34:07,358 - INFO - 📄 --- Text extraction and cleanup finished for Davina Almeira - 5026231094.pdf. --- 📄
+2025-06-27 10:34:07,358 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:07,358 - INFO - ✅ --- Transcript for Davina Almeira has been parsed successfully. --- ✅
+2025-06-27 10:34:07,359 - INFO - Student record updated for: Davina Almeira
+2025-06-27 10:34:07,371 - INFO - ✅ --- Load complete: 19/19 course records for Davina Almeira were loaded. --- ✅
+2025-06-27 10:34:07,371 - INFO - ✅ --- Successfully processed and loaded: Davina Almeira - 5026231094.pdf --- ✅
+2025-06-27 10:34:07,371 - INFO - Now processing file: Felix Prajna Santoso-5026231027.pdf
+2025-06-27 10:34:07,408 - INFO - 📄 --- Text extraction and cleanup finished for Felix Prajna Santoso-5026231027.pdf. --- 📄
+2025-06-27 10:34:07,408 - INFO - Identified and parsed 17 courses from the text.
+2025-06-27 10:34:07,408 - INFO - ✅ --- Transcript for Felix Prajna Santoso has been parsed successfully. --- ✅
+2025-06-27 10:34:07,410 - INFO - Student record updated for: Felix Prajna Santoso
+2025-06-27 10:34:07,424 - INFO - ✅ --- Load complete: 17/17 course records for Felix Prajna Santoso were loaded. --- ✅
+2025-06-27 10:34:07,424 - INFO - ✅ --- Successfully processed and loaded: Felix Prajna Santoso-5026231027.pdf --- ✅
+2025-06-27 10:34:07,424 - INFO - Now processing file: Muhammmad Faiz Roihan - 5026231098.pdf
+2025-06-27 10:34:07,456 - INFO - 📄 --- Text extraction and cleanup finished for Muhammmad Faiz Roihan - 5026231098.pdf. --- 📄
+2025-06-27 10:34:07,456 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:07,456 - INFO - ✅ --- Transcript for Muhammad Faiz Roihan has been parsed successfully. --- ✅
+2025-06-27 10:34:07,458 - INFO - Student record updated for: Muhammad Faiz Roihan
+2025-06-27 10:34:07,479 - INFO - ✅ --- Load complete: 19/19 course records for Muhammad Faiz Roihan were loaded. --- ✅
+2025-06-27 10:34:07,479 - INFO - ✅ --- Successfully processed and loaded: Muhammmad Faiz Roihan - 5026231098.pdf --- ✅
+2025-06-27 10:34:07,479 - INFO - Now processing file: Maulana Muhammad Ad-Dzikri - 5026231136.PDF.pdf
+2025-06-27 10:34:07,498 - INFO - 📄 --- Text extraction and cleanup finished for Maulana Muhammad Ad-Dzikri - 5026231136.PDF.pdf. --- 📄
+2025-06-27 10:34:07,498 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:07,498 - INFO - ✅ --- Transcript for Maulana Muhammad Ad-dzikri has been parsed successfully. --- ✅
+2025-06-27 10:34:07,500 - INFO - Student record updated for: Maulana Muhammad Ad-dzikri
+2025-06-27 10:34:07,517 - INFO - ✅ --- Load complete: 19/19 course records for Maulana Muhammad Ad-dzikri were loaded. --- ✅
+2025-06-27 10:34:07,517 - INFO - ✅ --- Successfully processed and loaded: Maulana Muhammad Ad-Dzikri - 5026231136.PDF.pdf --- ✅
+2025-06-27 10:34:07,517 - INFO - Now processing file: Hafidz Putra Dermawan - 5026231211.pdf
+2025-06-27 10:34:07,547 - INFO - 📄 --- Text extraction and cleanup finished for Hafidz Putra Dermawan - 5026231211.pdf. --- 📄
+2025-06-27 10:34:07,548 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:07,548 - INFO - ✅ --- Transcript for Hafidz Putra Dermawan has been parsed successfully. --- ✅
+2025-06-27 10:34:07,549 - INFO - Student record updated for: Hafidz Putra Dermawan
+2025-06-27 10:34:07,573 - INFO - ✅ --- Load complete: 19/19 course records for Hafidz Putra Dermawan were loaded. --- ✅
+2025-06-27 10:34:07,573 - INFO - ✅ --- Successfully processed and loaded: Hafidz Putra Dermawan - 5026231211.pdf --- ✅
+2025-06-27 10:34:07,573 - INFO - Now processing file: Umar Al Haddad - 5026231215.pdf
+2025-06-27 10:34:07,599 - INFO - 📄 --- Text extraction and cleanup finished for Umar Al Haddad - 5026231215.pdf. --- 📄
+2025-06-27 10:34:07,599 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:07,599 - INFO - ✅ --- Transcript for Umar Al-haddad has been parsed successfully. --- ✅
+2025-06-27 10:34:07,601 - INFO - Student record updated for: Umar Al-haddad
+2025-06-27 10:34:07,616 - INFO - ✅ --- Load complete: 19/19 course records for Umar Al-haddad were loaded. --- ✅
+2025-06-27 10:34:07,616 - INFO - ✅ --- Successfully processed and loaded: Umar Al Haddad - 5026231215.pdf --- ✅
+2025-06-27 10:34:07,616 - INFO - Now processing file: Naufal Zaky Nugraha_5026231082.pdf
+2025-06-27 10:34:07,648 - INFO - 📄 --- Text extraction and cleanup finished for Naufal Zaky Nugraha_5026231082.pdf. --- 📄
+2025-06-27 10:34:07,648 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:07,648 - INFO - ✅ --- Transcript for Naufal Zaky Nugraha has been parsed successfully. --- ✅
+2025-06-27 10:34:07,650 - INFO - Student record updated for: Naufal Zaky Nugraha
+2025-06-27 10:34:07,666 - INFO - ✅ --- Load complete: 19/19 course records for Naufal Zaky Nugraha were loaded. --- ✅
+2025-06-27 10:34:07,666 - INFO - ✅ --- Successfully processed and loaded: Naufal Zaky Nugraha_5026231082.pdf --- ✅
+2025-06-27 10:34:07,666 - INFO - Now processing file: Komang Alit Pujangga_5026231115.pdf
+2025-06-27 10:34:07,695 - INFO - 📄 --- Text extraction and cleanup finished for Komang Alit Pujangga_5026231115.pdf. --- 📄
+2025-06-27 10:34:07,695 - INFO - Identified and parsed 17 courses from the text.
+2025-06-27 10:34:07,695 - INFO - ✅ --- Transcript for Komang Alit Pujangga has been parsed successfully. --- ✅
+2025-06-27 10:34:07,697 - INFO - Student record updated for: Komang Alit Pujangga
+2025-06-27 10:34:07,712 - INFO - ✅ --- Load complete: 17/17 course records for Komang Alit Pujangga were loaded. --- ✅
+2025-06-27 10:34:07,712 - INFO - ✅ --- Successfully processed and loaded: Komang Alit Pujangga_5026231115.pdf --- ✅
+2025-06-27 10:34:07,713 - INFO - Now processing file: Fadhiil Akmal Hamizan_5026231128.pdf
+2025-06-27 10:34:07,718 - INFO - 📄 --- Text extraction and cleanup finished for Fadhiil Akmal Hamizan_5026231128.pdf. --- 📄
+2025-06-27 10:34:07,718 - INFO - Identified and parsed 18 courses from the text.
+2025-06-27 10:34:07,718 - INFO - ✅ --- Transcript for Fadhiil Akmal Hamizan has been parsed successfully. --- ✅
+2025-06-27 10:34:07,719 - INFO - Student record updated for: Fadhiil Akmal Hamizan
+2025-06-27 10:34:07,730 - INFO - ✅ --- Load complete: 18/18 course records for Fadhiil Akmal Hamizan were loaded. --- ✅
+2025-06-27 10:34:07,730 - INFO - ✅ --- Successfully processed and loaded: Fadhiil Akmal Hamizan_5026231128.pdf --- ✅
+2025-06-27 10:34:07,730 - INFO - Now processing file: Kurnia Yufi Satrio Laksono_5026231086.pdf
+2025-06-27 10:34:07,744 - INFO - 📄 --- Text extraction and cleanup finished for Kurnia Yufi Satrio Laksono_5026231086.pdf. --- 📄
+2025-06-27 10:34:07,745 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:07,745 - INFO - ✅ --- Transcript for Kurnia Yufi Satrio Laksono has been parsed successfully. --- ✅
+2025-06-27 10:34:07,745 - INFO - Student record updated for: Kurnia Yufi Satrio Laksono
+2025-06-27 10:34:07,757 - INFO - ✅ --- Load complete: 19/19 course records for Kurnia Yufi Satrio Laksono were loaded. --- ✅
+2025-06-27 10:34:07,757 - INFO - ✅ --- Successfully processed and loaded: Kurnia Yufi Satrio Laksono_5026231086.pdf --- ✅
+2025-06-27 10:34:07,757 - INFO - Now processing file: Faiz Hazmi Maulana_5026231230.pdf
+2025-06-27 10:34:07,770 - INFO - 📄 --- Text extraction and cleanup finished for Faiz Hazmi Maulana_5026231230.pdf. --- 📄
+2025-06-27 10:34:07,770 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:07,770 - INFO - ✅ --- Transcript for Faiz Hazmi Maulana has been parsed successfully. --- ✅
+2025-06-27 10:34:07,771 - INFO - Student record updated for: Faiz Hazmi Maulana
+2025-06-27 10:34:07,782 - INFO - ✅ --- Load complete: 19/19 course records for Faiz Hazmi Maulana were loaded. --- ✅
+2025-06-27 10:34:07,782 - INFO - ✅ --- Successfully processed and loaded: Faiz Hazmi Maulana_5026231230.pdf --- ✅
+2025-06-27 10:34:07,782 - INFO - Now processing file: Farrel Aditya Rosyidi - 5026231177.pdf
+2025-06-27 10:34:07,825 - INFO - 📄 --- Text extraction and cleanup finished for Farrel Aditya Rosyidi - 5026231177.pdf. --- 📄
+2025-06-27 10:34:07,825 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:07,825 - INFO - ✅ --- Transcript for Farrel Aditya Rosyidi has been parsed successfully. --- ✅
+2025-06-27 10:34:07,826 - INFO - Student record updated for: Farrel Aditya Rosyidi
+2025-06-27 10:34:07,843 - INFO - ✅ --- Load complete: 19/19 course records for Farrel Aditya Rosyidi were loaded. --- ✅
+2025-06-27 10:34:07,843 - INFO - ✅ --- Successfully processed and loaded: Farrel Aditya Rosyidi - 5026231177.pdf --- ✅
+2025-06-27 10:34:07,843 - INFO - Now processing file: Daniel Bara - 5026231169.pdf
+2025-06-27 10:34:07,874 - INFO - 📄 --- Text extraction and cleanup finished for Daniel Bara - 5026231169.pdf. --- 📄
+2025-06-27 10:34:07,874 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:07,875 - INFO - ✅ --- Transcript for Daniel Bara Seftino has been parsed successfully. --- ✅
+2025-06-27 10:34:07,876 - INFO - Student record updated for: Daniel Bara Seftino
+2025-06-27 10:34:07,892 - INFO - ✅ --- Load complete: 19/19 course records for Daniel Bara Seftino were loaded. --- ✅
+2025-06-27 10:34:07,892 - INFO - ✅ --- Successfully processed and loaded: Daniel Bara - 5026231169.pdf --- ✅
+2025-06-27 10:34:07,892 - INFO - Now processing file: Ananda Donelly Reksana - 5026231149.pdf
+2025-06-27 10:34:07,913 - INFO - 📄 --- Text extraction and cleanup finished for Ananda Donelly Reksana - 5026231149.pdf. --- 📄
+2025-06-27 10:34:07,913 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:07,913 - INFO - ✅ --- Transcript for Ananda Donelly Reksana has been parsed successfully. --- ✅
+2025-06-27 10:34:07,914 - INFO - Student record updated for: Ananda Donelly Reksana
+2025-06-27 10:34:07,928 - INFO - ✅ --- Load complete: 19/19 course records for Ananda Donelly Reksana were loaded. --- ✅
+2025-06-27 10:34:07,928 - INFO - ✅ --- Successfully processed and loaded: Ananda Donelly Reksana - 5026231149.pdf --- ✅
+2025-06-27 10:34:07,928 - INFO - Now processing file: Abrorus Shobah - 5026231145.pdf
+2025-06-27 10:34:07,959 - INFO - 📄 --- Text extraction and cleanup finished for Abrorus Shobah - 5026231145.pdf. --- 📄
+2025-06-27 10:34:07,960 - INFO - Identified and parsed 18 courses from the text.
+2025-06-27 10:34:07,960 - INFO - ✅ --- Transcript for Abrorus Shobah has been parsed successfully. --- ✅
+2025-06-27 10:34:07,961 - INFO - Student record updated for: Abrorus Shobah
+2025-06-27 10:34:07,977 - INFO - ✅ --- Load complete: 18/18 course records for Abrorus Shobah were loaded. --- ✅
+2025-06-27 10:34:07,977 - INFO - ✅ --- Successfully processed and loaded: Abrorus Shobah - 5026231145.pdf --- ✅
+2025-06-27 10:34:07,977 - INFO - Now processing file: Fachry Fariska Ilham - 5026231153.pdf
+2025-06-27 10:34:08,014 - INFO - 📄 --- Text extraction and cleanup finished for Fachry Fariska Ilham - 5026231153.pdf. --- 📄
+2025-06-27 10:34:08,014 - INFO - Identified and parsed 17 courses from the text.
+2025-06-27 10:34:08,014 - INFO - ✅ --- Transcript for Fachry Fariska Ilham has been parsed successfully. --- ✅
+2025-06-27 10:34:08,016 - INFO - Student record updated for: Fachry Fariska Ilham
+2025-06-27 10:34:08,035 - INFO - ✅ --- Load complete: 17/17 course records for Fachry Fariska Ilham were loaded. --- ✅
+2025-06-27 10:34:08,035 - INFO - ✅ --- Successfully processed and loaded: Fachry Fariska Ilham - 5026231153.pdf --- ✅
+2025-06-27 10:34:08,035 - INFO - Now processing file: Achmad Andi M H - 5026231207.pdf
+2025-06-27 10:34:08,047 - INFO - 📄 --- Text extraction and cleanup finished for Achmad Andi M H - 5026231207.pdf. --- 📄
+2025-06-27 10:34:08,047 - INFO - Identified and parsed 18 courses from the text.
+2025-06-27 10:34:08,047 - INFO - ✅ --- Transcript for Achmad Andi Miftakhul Huda has been parsed successfully. --- ✅
+2025-06-27 10:34:08,060 - INFO - Student record updated for: Achmad Andi Miftakhul Huda
+2025-06-27 10:34:08,106 - INFO - ✅ --- Load complete: 18/18 course records for Achmad Andi Miftakhul Huda were loaded. --- ✅
+2025-06-27 10:34:08,106 - INFO - ✅ --- Successfully processed and loaded: Achmad Andi M H - 5026231207.pdf --- ✅
+2025-06-27 10:34:08,106 - INFO - Now processing file: Cindy Fatika Ekawati_5026231039.pdf
+2025-06-27 10:34:08,118 - INFO - 📄 --- Text extraction and cleanup finished for Cindy Fatika Ekawati_5026231039.pdf. --- 📄
+2025-06-27 10:34:08,118 - INFO - Identified and parsed 16 courses from the text.
+2025-06-27 10:34:08,118 - INFO - ✅ --- Transcript for Cindy Fatika Eka wati has been parsed successfully. --- ✅
+2025-06-27 10:34:08,119 - INFO - Student record updated for: Cindy Fatika Eka wati
+2025-06-27 10:34:08,133 - INFO - ✅ --- Load complete: 16/16 course records for Cindy Fatika Eka wati were loaded. --- ✅
+2025-06-27 10:34:08,133 - INFO - ✅ --- Successfully processed and loaded: Cindy Fatika Ekawati_5026231039.pdf --- ✅
+2025-06-27 10:34:08,133 - INFO - Now processing file: Jannati Urfa Muhayat-5026231185.pdf
+2025-06-27 10:34:08,168 - INFO - 📄 --- Text extraction and cleanup finished for Jannati Urfa Muhayat-5026231185.pdf. --- 📄
+2025-06-27 10:34:08,169 - INFO - Identified and parsed 19 courses from the text.
+2025-06-27 10:34:08,169 - INFO - ✅ --- Transcript for Jannati Urfa Muhayat has been parsed successfully. --- ✅
+2025-06-27 10:34:08,170 - INFO - Student record updated for: Jannati Urfa Muhayat
+2025-06-27 10:34:08,189 - INFO - ✅ --- Load complete: 19/19 course records for Jannati Urfa Muhayat were loaded. --- ✅
+2025-06-27 10:34:08,189 - INFO - ✅ --- Successfully processed and loaded: Jannati Urfa Muhayat-5026231185.pdf --- ✅
+2025-06-27 10:34:08,189 - INFO - ============================================================
+2025-06-27 10:34:08,189 - INFO - WORKFLOW COMPLETED
+2025-06-27 10:34:08,189 - INFO - ✅ --- Total files successfully processed: 43 --- ✅
+2025-06-27 10:34:08,189 - INFO - 🚨 --- Total files that failed processing: 0 --- 🚨
+2025-06-27 10:34:08,189 - INFO - ============================================================
+2025-06-27 10:34:08,189 - INFO - Database connection has been terminated.
+2025-06-27 21:02:38,999 - INFO - package: mysql.connector.plugins
+2025-06-27 21:02:38,999 - INFO - plugin_name: mysql_native_password
+2025-06-27 21:02:39,000 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-27 21:02:39,016 - INFO - Successfully connected to the database.
+2025-06-27 21:02:39,075 - INFO - New schema tables have been created.
+2025-06-27 21:02:39,075 - INFO - Schema setup is complete.
+2025-06-27 21:02:39,091 - INFO - Loaded grade-to-weight mapping into memory.
+2025-06-27 21:02:39,091 - INFO - Kicking off transcript processing...
+2025-06-27 21:02:39,091 - INFO - Located 43 PDF files for processing.
+2025-06-27 21:02:39,091 - INFO - Now processing: Marco Indrajaya-5026231031.pdf
+2025-06-27 21:02:39,137 - INFO - Text extracted and cleaned from Marco Indrajaya-5026231031.pdf.
+2025-06-27 21:02:39,138 - INFO - Found and parsed 18 courses.
+2025-06-27 21:02:39,138 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,138 - INFO - Transcript for Marco Indrajaya parsed successfully.
+2025-06-27 21:02:39,146 - INFO - Student record updated for: Marco Indrajaya
+2025-06-27 21:02:39,164 - INFO - Loaded 18 of 18 courses for Marco Indrajaya.
+2025-06-27 21:02:39,164 - INFO - Loaded 3 of 3 semester records for Marco Indrajaya.
+2025-06-27 21:02:39,164 - INFO - Finished processing: Marco Indrajaya-5026231031.pdf
+2025-06-27 21:02:39,164 - INFO - Now processing: Nadia Lovely - 5026231007.pdf
+2025-06-27 21:02:39,178 - INFO - Text extracted and cleaned from Nadia Lovely - 5026231007.pdf.
+2025-06-27 21:02:39,178 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:39,178 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,178 - INFO - Transcript for Nadia Lovely parsed successfully.
+2025-06-27 21:02:39,178 - INFO - Student record updated for: Nadia Lovely
+2025-06-27 21:02:39,189 - INFO - Loaded 19 of 19 courses for Nadia Lovely.
+2025-06-27 21:02:39,189 - INFO - Loaded 3 of 3 semester records for Nadia Lovely.
+2025-06-27 21:02:39,189 - INFO - Finished processing: Nadia Lovely - 5026231007.pdf
+2025-06-27 21:02:39,189 - INFO - Now processing: Muhammad Gandhi Taqi Utomo - 5026231160.pdf
+2025-06-27 21:02:39,201 - INFO - Text extracted and cleaned from Muhammad Gandhi Taqi Utomo - 5026231160.pdf.
+2025-06-27 21:02:39,201 - INFO - Found and parsed 18 courses.
+2025-06-27 21:02:39,201 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,201 - INFO - Transcript for Muhammad Gandhi Taqi Utomo parsed successfully.
+2025-06-27 21:02:39,202 - INFO - Student record updated for: Muhammad Gandhi Taqi Utomo
+2025-06-27 21:02:39,213 - INFO - Loaded 18 of 18 courses for Muhammad Gandhi Taqi Utomo.
+2025-06-27 21:02:39,213 - INFO - Loaded 3 of 3 semester records for Muhammad Gandhi Taqi Utomo.
+2025-06-27 21:02:39,213 - INFO - Finished processing: Muhammad Gandhi Taqi Utomo - 5026231160.pdf
+2025-06-27 21:02:39,213 - INFO - Now processing: Muhammad Daniel Alfarisi - 5026231161.pdf
+2025-06-27 21:02:39,225 - INFO - Text extracted and cleaned from Muhammad Daniel Alfarisi - 5026231161.pdf.
+2025-06-27 21:02:39,225 - INFO - Found and parsed 18 courses.
+2025-06-27 21:02:39,225 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,225 - INFO - Transcript for Muhammad Daniel Alfarisi parsed successfully.
+2025-06-27 21:02:39,226 - INFO - Student record updated for: Muhammad Daniel Alfarisi
+2025-06-27 21:02:39,237 - INFO - Loaded 18 of 18 courses for Muhammad Daniel Alfarisi.
+2025-06-27 21:02:39,237 - INFO - Loaded 3 of 3 semester records for Muhammad Daniel Alfarisi.
+2025-06-27 21:02:39,237 - INFO - Finished processing: Muhammad Daniel Alfarisi - 5026231161.pdf
+2025-06-27 21:02:39,237 - INFO - Now processing: Naura Salsabila - 5026231173.pdf
+2025-06-27 21:02:39,249 - INFO - Text extracted and cleaned from Naura Salsabila - 5026231173.pdf.
+2025-06-27 21:02:39,249 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:39,249 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,249 - INFO - Transcript for Naur a Salsabila parsed successfully.
+2025-06-27 21:02:39,249 - INFO - Student record updated for: Naur a Salsabila
+2025-06-27 21:02:39,261 - INFO - Loaded 19 of 19 courses for Naur a Salsabila.
+2025-06-27 21:02:39,261 - INFO - Loaded 3 of 3 semester records for Naur a Salsabila.
+2025-06-27 21:02:39,261 - INFO - Finished processing: Naura Salsabila - 5026231173.pdf
+2025-06-27 21:02:39,261 - INFO - Now processing: Muhammad Zaky Al Khair - 5026231069.pdf
+2025-06-27 21:02:39,285 - INFO - Text extracted and cleaned from Muhammad Zaky Al Khair - 5026231069.pdf.
+2025-06-27 21:02:39,285 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:39,285 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,285 - INFO - Transcript for Muhammad Zaky Al Khair parsed successfully.
+2025-06-27 21:02:39,286 - INFO - Student record updated for: Muhammad Zaky Al Khair
+2025-06-27 21:02:39,297 - INFO - Loaded 19 of 19 courses for Muhammad Zaky Al Khair.
+2025-06-27 21:02:39,297 - INFO - Loaded 3 of 3 semester records for Muhammad Zaky Al Khair.
+2025-06-27 21:02:39,297 - INFO - Finished processing: Muhammad Zaky Al Khair - 5026231069.pdf
+2025-06-27 21:02:39,297 - INFO - Now processing: Nadia Ayula Assyaputri - 5026231090.pdf
+2025-06-27 21:02:39,309 - INFO - Text extracted and cleaned from Nadia Ayula Assyaputri - 5026231090.pdf.
+2025-06-27 21:02:39,309 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:39,309 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,309 - INFO - Transcript for Nadia Ayula Assy aputri parsed successfully.
+2025-06-27 21:02:39,310 - INFO - Student record updated for: Nadia Ayula Assy aputri
+2025-06-27 21:02:39,321 - INFO - Loaded 19 of 19 courses for Nadia Ayula Assy aputri.
+2025-06-27 21:02:39,321 - INFO - Loaded 3 of 3 semester records for Nadia Ayula Assy aputri.
+2025-06-27 21:02:39,321 - INFO - Finished processing: Nadia Ayula Assyaputri - 5026231090.pdf
+2025-06-27 21:02:39,321 - INFO - Now processing: William Bryan Pangestu - 5026231011.pdf
+2025-06-27 21:02:39,332 - INFO - Text extracted and cleaned from William Bryan Pangestu - 5026231011.pdf.
+2025-06-27 21:02:39,333 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:39,333 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,333 - INFO - Transcript for William Bry an Pangestu parsed successfully.
+2025-06-27 21:02:39,333 - INFO - Student record updated for: William Bry an Pangestu
+2025-06-27 21:02:39,345 - INFO - Loaded 19 of 19 courses for William Bry an Pangestu.
+2025-06-27 21:02:39,345 - INFO - Loaded 3 of 3 semester records for William Bry an Pangestu.
+2025-06-27 21:02:39,345 - INFO - Finished processing: William Bryan Pangestu - 5026231011.pdf
+2025-06-27 21:02:39,345 - INFO - Now processing: Aqilah Ummu - 5026231140.pdf
+2025-06-27 21:02:39,364 - INFO - Text extracted and cleaned from Aqilah Ummu - 5026231140.pdf.
+2025-06-27 21:02:39,364 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:39,365 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,365 - INFO - Transcript for Aqilah Ummu Al Na wiswary parsed successfully.
+2025-06-27 21:02:39,365 - INFO - Student record updated for: Aqilah Ummu Al Na wiswary
+2025-06-27 21:02:39,377 - INFO - Loaded 19 of 19 courses for Aqilah Ummu Al Na wiswary.
+2025-06-27 21:02:39,377 - INFO - Loaded 3 of 3 semester records for Aqilah Ummu Al Na wiswary.
+2025-06-27 21:02:39,377 - INFO - Finished processing: Aqilah Ummu - 5026231140.pdf
+2025-06-27 21:02:39,377 - INFO - Now processing: Muhammad Fawwaz Athaillah Anwar - 5026231157.pdf
+2025-06-27 21:02:39,400 - INFO - Text extracted and cleaned from Muhammad Fawwaz Athaillah Anwar - 5026231157.pdf.
+2025-06-27 21:02:39,400 - INFO - Found and parsed 13 courses.
+2025-06-27 21:02:39,400 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,400 - INFO - Transcript for Muhammad Fawwaz Athaillah Anwar parsed successfully.
+2025-06-27 21:02:39,401 - INFO - Student record updated for: Muhammad Fawwaz Athaillah Anwar
+2025-06-27 21:02:39,409 - INFO - Loaded 13 of 13 courses for Muhammad Fawwaz Athaillah Anwar.
+2025-06-27 21:02:39,409 - INFO - Loaded 3 of 3 semester records for Muhammad Fawwaz Athaillah Anwar.
+2025-06-27 21:02:39,409 - INFO - Finished processing: Muhammad Fawwaz Athaillah Anwar - 5026231157.pdf
+2025-06-27 21:02:39,409 - INFO - Now processing: Putu Arya Yubi Wirayudha - 5026231165.pdf
+2025-06-27 21:02:39,420 - INFO - Text extracted and cleaned from Putu Arya Yubi Wirayudha - 5026231165.pdf.
+2025-06-27 21:02:39,420 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:39,420 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,420 - INFO - Transcript for Putu Ary a Yubi Wir ayudha parsed successfully.
+2025-06-27 21:02:39,421 - INFO - Student record updated for: Putu Ary a Yubi Wir ayudha
+2025-06-27 21:02:39,434 - INFO - Loaded 19 of 19 courses for Putu Ary a Yubi Wir ayudha.
+2025-06-27 21:02:39,434 - INFO - Loaded 3 of 3 semester records for Putu Ary a Yubi Wir ayudha.
+2025-06-27 21:02:39,434 - INFO - Finished processing: Putu Arya Yubi Wirayudha - 5026231165.pdf
+2025-06-27 21:02:39,434 - INFO - Now processing: Vivi Alvianita - 5026231226.pdf
+2025-06-27 21:02:39,445 - INFO - Text extracted and cleaned from Vivi Alvianita - 5026231226.pdf.
+2025-06-27 21:02:39,445 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:39,445 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,445 - INFO - Transcript for Vivi Alvianita parsed successfully.
+2025-06-27 21:02:39,445 - INFO - Student record updated for: Vivi Alvianita
+2025-06-27 21:02:39,458 - INFO - Loaded 19 of 19 courses for Vivi Alvianita.
+2025-06-27 21:02:39,458 - INFO - Loaded 3 of 3 semester records for Vivi Alvianita.
+2025-06-27 21:02:39,458 - INFO - Finished processing: Vivi Alvianita - 5026231226.pdf
+2025-06-27 21:02:39,458 - INFO - Now processing: Clay Amsal Sebastian Hutabarat - 5026231132.pdf
+2025-06-27 21:02:39,487 - INFO - Text extracted and cleaned from Clay Amsal Sebastian Hutabarat - 5026231132.pdf.
+2025-06-27 21:02:39,487 - INFO - Found and parsed 18 courses.
+2025-06-27 21:02:39,487 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,488 - INFO - Transcript for Clay Amsal Sebastian Hutabarat parsed successfully.
+2025-06-27 21:02:39,488 - INFO - Student record updated for: Clay Amsal Sebastian Hutabarat
+2025-06-27 21:02:39,498 - INFO - Loaded 18 of 18 courses for Clay Amsal Sebastian Hutabarat.
+2025-06-27 21:02:39,498 - INFO - Loaded 3 of 3 semester records for Clay Amsal Sebastian Hutabarat.
+2025-06-27 21:02:39,498 - INFO - Finished processing: Clay Amsal Sebastian Hutabarat - 5026231132.pdf
+2025-06-27 21:02:39,498 - INFO - Now processing: Hilman Mumtaz Sya_bani_5026231078.pdf
+2025-06-27 21:02:39,509 - INFO - Text extracted and cleaned from Hilman Mumtaz Sya_bani_5026231078.pdf.
+2025-06-27 21:02:39,509 - INFO - Found and parsed 20 courses.
+2025-06-27 21:02:39,509 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,509 - INFO - Transcript for Hilman Mumtaz Sya`bani parsed successfully.
+2025-06-27 21:02:39,510 - INFO - Student record updated for: Hilman Mumtaz Sya`bani
+2025-06-27 21:02:39,521 - INFO - Loaded 20 of 20 courses for Hilman Mumtaz Sya`bani.
+2025-06-27 21:02:39,521 - INFO - Loaded 3 of 3 semester records for Hilman Mumtaz Sya`bani.
+2025-06-27 21:02:39,521 - INFO - Finished processing: Hilman Mumtaz Sya_bani_5026231078.pdf
+2025-06-27 21:02:39,521 - INFO - Now processing: Nailah Qonitah Firdausa - 5026231106.pdf
+2025-06-27 21:02:39,564 - INFO - Text extracted and cleaned from Nailah Qonitah Firdausa - 5026231106.pdf.
+2025-06-27 21:02:39,564 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:39,564 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,564 - INFO - Transcript for Nailah Qonitah Firdausa parsed successfully.
+2025-06-27 21:02:39,565 - INFO - Student record updated for: Nailah Qonitah Firdausa
+2025-06-27 21:02:39,578 - INFO - Loaded 19 of 19 courses for Nailah Qonitah Firdausa.
+2025-06-27 21:02:39,578 - INFO - Loaded 3 of 3 semester records for Nailah Qonitah Firdausa.
+2025-06-27 21:02:39,578 - INFO - Finished processing: Nailah Qonitah Firdausa - 5026231106.pdf
+2025-06-27 21:02:39,578 - INFO - Now processing: ibrahim amar alfanani-5026231195.pdf
+2025-06-27 21:02:39,609 - INFO - Text extracted and cleaned from ibrahim amar alfanani-5026231195.pdf.
+2025-06-27 21:02:39,609 - INFO - Found and parsed 18 courses.
+2025-06-27 21:02:39,609 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,609 - INFO - Transcript for Ibrahim Amar Alfanani parsed successfully.
+2025-06-27 21:02:39,610 - INFO - Student record updated for: Ibrahim Amar Alfanani
+2025-06-27 21:02:39,621 - INFO - Loaded 18 of 18 courses for Ibrahim Amar Alfanani.
+2025-06-27 21:02:39,621 - INFO - Loaded 3 of 3 semester records for Ibrahim Amar Alfanani.
+2025-06-27 21:02:39,621 - INFO - Finished processing: ibrahim amar alfanani-5026231195.pdf
+2025-06-27 21:02:39,621 - INFO - Now processing: Faris Abqori - 5026231015.pdf
+2025-06-27 21:02:39,641 - INFO - Text extracted and cleaned from Faris Abqori - 5026231015.pdf.
+2025-06-27 21:02:39,641 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:39,641 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,641 - INFO - Transcript for Faris Abqori parsed successfully.
+2025-06-27 21:02:39,642 - INFO - Student record updated for: Faris Abqori
+2025-06-27 21:02:39,653 - INFO - Loaded 19 of 19 courses for Faris Abqori.
+2025-06-27 21:02:39,654 - INFO - Loaded 3 of 3 semester records for Faris Abqori.
+2025-06-27 21:02:39,654 - INFO - Finished processing: Faris Abqori - 5026231015.pdf
+2025-06-27 21:02:39,654 - INFO - Now processing: Nadya Luthfiyah Rahma - 5026231023.pdf
+2025-06-27 21:02:39,666 - INFO - Text extracted and cleaned from Nadya Luthfiyah Rahma - 5026231023.pdf.
+2025-06-27 21:02:39,666 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:39,666 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,666 - INFO - Transcript for Nady a Luthfiy ah Rahma parsed successfully.
+2025-06-27 21:02:39,667 - INFO - Student record updated for: Nady a Luthfiy ah Rahma
+2025-06-27 21:02:39,678 - INFO - Loaded 19 of 19 courses for Nady a Luthfiy ah Rahma.
+2025-06-27 21:02:39,678 - INFO - Loaded 3 of 3 semester records for Nady a Luthfiy ah Rahma.
+2025-06-27 21:02:39,678 - INFO - Finished processing: Nadya Luthfiyah Rahma - 5026231023.pdf
+2025-06-27 21:02:39,678 - INFO - Now processing: Muhammad Rajja Fadzell Auraffa A - 5026231110.pdf
+2025-06-27 21:02:39,698 - INFO - Text extracted and cleaned from Muhammad Rajja Fadzell Auraffa A - 5026231110.pdf.
+2025-06-27 21:02:39,699 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:39,699 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,699 - INFO - Transcript for Muhammad Rajja Fadzell Auraffa Ariandi parsed successfully.
+2025-06-27 21:02:39,699 - INFO - Student record updated for: Muhammad Rajja Fadzell Auraffa Ariandi
+2025-06-27 21:02:39,710 - INFO - Loaded 19 of 19 courses for Muhammad Rajja Fadzell Auraffa Ariandi.
+2025-06-27 21:02:39,710 - INFO - Loaded 3 of 3 semester records for Muhammad Rajja Fadzell Auraffa Ariandi.
+2025-06-27 21:02:39,710 - INFO - Finished processing: Muhammad Rajja Fadzell Auraffa A - 5026231110.pdf
+2025-06-27 21:02:39,710 - INFO - Now processing: Nathaniel Lado Hadi Winata - 5026231019.pdf
+2025-06-27 21:02:39,742 - INFO - Text extracted and cleaned from Nathaniel Lado Hadi Winata - 5026231019.pdf.
+2025-06-27 21:02:39,742 - INFO - Found and parsed 18 courses.
+2025-06-27 21:02:39,742 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,742 - INFO - Transcript for Nathaniel Lado Hadi Winata parsed successfully.
+2025-06-27 21:02:39,743 - INFO - Student record updated for: Nathaniel Lado Hadi Winata
+2025-06-27 21:02:39,753 - INFO - Loaded 18 of 18 courses for Nathaniel Lado Hadi Winata.
+2025-06-27 21:02:39,753 - INFO - Loaded 3 of 3 semester records for Nathaniel Lado Hadi Winata.
+2025-06-27 21:02:39,753 - INFO - Finished processing: Nathaniel Lado Hadi Winata - 5026231019.pdf
+2025-06-27 21:02:39,753 - INFO - Now processing: Gerald Marcell Van Rayne - 5026231073.pdf
+2025-06-27 21:02:39,796 - INFO - Text extracted and cleaned from Gerald Marcell Van Rayne - 5026231073.pdf.
+2025-06-27 21:02:39,796 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:39,796 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,796 - INFO - Transcript for Gerald Marcell Van Rayne parsed successfully.
+2025-06-27 21:02:39,797 - INFO - Student record updated for: Gerald Marcell Van Rayne
+2025-06-27 21:02:39,811 - INFO - Loaded 19 of 19 courses for Gerald Marcell Van Rayne.
+2025-06-27 21:02:39,811 - INFO - Loaded 3 of 3 semester records for Gerald Marcell Van Rayne.
+2025-06-27 21:02:39,811 - INFO - Finished processing: Gerald Marcell Van Rayne - 5026231073.pdf
+2025-06-27 21:02:39,811 - INFO - Now processing: Antony Purnamarasid August Ratulangi - 5026231190.pdf
+2025-06-27 21:02:39,830 - INFO - Text extracted and cleaned from Antony Purnamarasid August Ratulangi - 5026231190.pdf.
+2025-06-27 21:02:39,830 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:39,831 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,831 - INFO - Transcript for Anton y Purnamar asid August Ratulangi parsed successfully.
+2025-06-27 21:02:39,834 - INFO - Student record updated for: Anton y Purnamar asid August Ratulangi
+2025-06-27 21:02:39,856 - INFO - Loaded 19 of 19 courses for Anton y Purnamar asid August Ratulangi.
+2025-06-27 21:02:39,856 - INFO - Loaded 3 of 3 semester records for Anton y Purnamar asid August Ratulangi.
+2025-06-27 21:02:39,856 - INFO - Finished processing: Antony Purnamarasid August Ratulangi - 5026231190.pdf
+2025-06-27 21:02:39,856 - INFO - Now processing: Beh Siu Li_5026231065 (2).pdf
+2025-06-27 21:02:39,932 - INFO - Text extracted and cleaned from Beh Siu Li_5026231065 (2).pdf.
+2025-06-27 21:02:39,933 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:39,933 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,933 - INFO - Transcript for Beh Siu Li parsed successfully.
+2025-06-27 21:02:39,934 - INFO - Student record updated for: Beh Siu Li
+2025-06-27 21:02:39,956 - INFO - Loaded 19 of 19 courses for Beh Siu Li.
+2025-06-27 21:02:39,956 - INFO - Loaded 3 of 3 semester records for Beh Siu Li.
+2025-06-27 21:02:39,956 - INFO - Finished processing: Beh Siu Li_5026231065 (2).pdf
+2025-06-27 21:02:39,956 - INFO - Now processing: Ahmed Miftah Ghiffari - 5026231102.pdf
+2025-06-27 21:02:39,967 - INFO - Text extracted and cleaned from Ahmed Miftah Ghiffari - 5026231102.pdf.
+2025-06-27 21:02:39,967 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:39,967 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:39,967 - INFO - Transcript for Ahmed Miftah Ghiffari parsed successfully.
+2025-06-27 21:02:39,968 - INFO - Student record updated for: Ahmed Miftah Ghiffari
+2025-06-27 21:02:39,994 - INFO - Loaded 19 of 19 courses for Ahmed Miftah Ghiffari.
+2025-06-27 21:02:39,994 - INFO - Loaded 3 of 3 semester records for Ahmed Miftah Ghiffari.
+2025-06-27 21:02:39,994 - INFO - Finished processing: Ahmed Miftah Ghiffari - 5026231102.pdf
+2025-06-27 21:02:39,994 - INFO - Now processing: Davina Almeira - 5026231094.pdf
+2025-06-27 21:02:40,025 - INFO - Text extracted and cleaned from Davina Almeira - 5026231094.pdf.
+2025-06-27 21:02:40,025 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:40,025 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:40,025 - INFO - Transcript for Davina Almeira parsed successfully.
+2025-06-27 21:02:40,027 - INFO - Student record updated for: Davina Almeira
+2025-06-27 21:02:40,046 - INFO - Loaded 19 of 19 courses for Davina Almeira.
+2025-06-27 21:02:40,046 - INFO - Loaded 3 of 3 semester records for Davina Almeira.
+2025-06-27 21:02:40,046 - INFO - Finished processing: Davina Almeira - 5026231094.pdf
+2025-06-27 21:02:40,046 - INFO - Now processing: Felix Prajna Santoso-5026231027.pdf
+2025-06-27 21:02:40,086 - INFO - Text extracted and cleaned from Felix Prajna Santoso-5026231027.pdf.
+2025-06-27 21:02:40,086 - INFO - Found and parsed 17 courses.
+2025-06-27 21:02:40,086 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:40,086 - INFO - Transcript for Felix Prajna Santoso parsed successfully.
+2025-06-27 21:02:40,088 - INFO - Student record updated for: Felix Prajna Santoso
+2025-06-27 21:02:40,104 - INFO - Loaded 17 of 17 courses for Felix Prajna Santoso.
+2025-06-27 21:02:40,104 - INFO - Loaded 3 of 3 semester records for Felix Prajna Santoso.
+2025-06-27 21:02:40,105 - INFO - Finished processing: Felix Prajna Santoso-5026231027.pdf
+2025-06-27 21:02:40,105 - INFO - Now processing: Muhammmad Faiz Roihan - 5026231098.pdf
+2025-06-27 21:02:40,140 - INFO - Text extracted and cleaned from Muhammmad Faiz Roihan - 5026231098.pdf.
+2025-06-27 21:02:40,141 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:40,141 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:40,141 - INFO - Transcript for Muhammad Faiz Roihan parsed successfully.
+2025-06-27 21:02:40,142 - INFO - Student record updated for: Muhammad Faiz Roihan
+2025-06-27 21:02:40,159 - INFO - Loaded 19 of 19 courses for Muhammad Faiz Roihan.
+2025-06-27 21:02:40,159 - INFO - Loaded 3 of 3 semester records for Muhammad Faiz Roihan.
+2025-06-27 21:02:40,159 - INFO - Finished processing: Muhammmad Faiz Roihan - 5026231098.pdf
+2025-06-27 21:02:40,159 - INFO - Now processing: Maulana Muhammad Ad-Dzikri - 5026231136.PDF.pdf
+2025-06-27 21:02:40,180 - INFO - Text extracted and cleaned from Maulana Muhammad Ad-Dzikri - 5026231136.PDF.pdf.
+2025-06-27 21:02:40,180 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:40,180 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:40,180 - INFO - Transcript for Maulana Muhammad Ad-dzikri parsed successfully.
+2025-06-27 21:02:40,182 - INFO - Student record updated for: Maulana Muhammad Ad-dzikri
+2025-06-27 21:02:40,201 - INFO - Loaded 19 of 19 courses for Maulana Muhammad Ad-dzikri.
+2025-06-27 21:02:40,202 - INFO - Loaded 3 of 3 semester records for Maulana Muhammad Ad-dzikri.
+2025-06-27 21:02:40,202 - INFO - Finished processing: Maulana Muhammad Ad-Dzikri - 5026231136.PDF.pdf
+2025-06-27 21:02:40,202 - INFO - Now processing: Hafidz Putra Dermawan - 5026231211.pdf
+2025-06-27 21:02:40,233 - INFO - Text extracted and cleaned from Hafidz Putra Dermawan - 5026231211.pdf.
+2025-06-27 21:02:40,233 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:40,233 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:40,233 - INFO - Transcript for Hafidz Putra Dermawan parsed successfully.
+2025-06-27 21:02:40,235 - INFO - Student record updated for: Hafidz Putra Dermawan
+2025-06-27 21:02:40,262 - INFO - Loaded 19 of 19 courses for Hafidz Putra Dermawan.
+2025-06-27 21:02:40,262 - INFO - Loaded 3 of 3 semester records for Hafidz Putra Dermawan.
+2025-06-27 21:02:40,262 - INFO - Finished processing: Hafidz Putra Dermawan - 5026231211.pdf
+2025-06-27 21:02:40,262 - INFO - Now processing: Umar Al Haddad - 5026231215.pdf
+2025-06-27 21:02:40,295 - INFO - Text extracted and cleaned from Umar Al Haddad - 5026231215.pdf.
+2025-06-27 21:02:40,295 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:40,295 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:40,295 - INFO - Transcript for Umar Al-haddad parsed successfully.
+2025-06-27 21:02:40,296 - INFO - Student record updated for: Umar Al-haddad
+2025-06-27 21:02:40,312 - INFO - Loaded 19 of 19 courses for Umar Al-haddad.
+2025-06-27 21:02:40,313 - INFO - Loaded 3 of 3 semester records for Umar Al-haddad.
+2025-06-27 21:02:40,313 - INFO - Finished processing: Umar Al Haddad - 5026231215.pdf
+2025-06-27 21:02:40,313 - INFO - Now processing: Naufal Zaky Nugraha_5026231082.pdf
+2025-06-27 21:02:40,345 - INFO - Text extracted and cleaned from Naufal Zaky Nugraha_5026231082.pdf.
+2025-06-27 21:02:40,345 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:40,345 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:40,345 - INFO - Transcript for Naufal Zaky Nugraha parsed successfully.
+2025-06-27 21:02:40,347 - INFO - Student record updated for: Naufal Zaky Nugraha
+2025-06-27 21:02:40,363 - INFO - Loaded 19 of 19 courses for Naufal Zaky Nugraha.
+2025-06-27 21:02:40,363 - INFO - Loaded 3 of 3 semester records for Naufal Zaky Nugraha.
+2025-06-27 21:02:40,364 - INFO - Finished processing: Naufal Zaky Nugraha_5026231082.pdf
+2025-06-27 21:02:40,364 - INFO - Now processing: Komang Alit Pujangga_5026231115.pdf
+2025-06-27 21:02:40,393 - INFO - Text extracted and cleaned from Komang Alit Pujangga_5026231115.pdf.
+2025-06-27 21:02:40,394 - INFO - Found and parsed 17 courses.
+2025-06-27 21:02:40,394 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:40,394 - INFO - Transcript for Komang Alit Pujangga parsed successfully.
+2025-06-27 21:02:40,395 - INFO - Student record updated for: Komang Alit Pujangga
+2025-06-27 21:02:40,445 - INFO - Loaded 17 of 17 courses for Komang Alit Pujangga.
+2025-06-27 21:02:40,445 - INFO - Loaded 3 of 3 semester records for Komang Alit Pujangga.
+2025-06-27 21:02:40,445 - INFO - Finished processing: Komang Alit Pujangga_5026231115.pdf
+2025-06-27 21:02:40,445 - INFO - Now processing: Fadhiil Akmal Hamizan_5026231128.pdf
+2025-06-27 21:02:40,450 - INFO - Text extracted and cleaned from Fadhiil Akmal Hamizan_5026231128.pdf.
+2025-06-27 21:02:40,450 - INFO - Found and parsed 18 courses.
+2025-06-27 21:02:40,450 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:40,450 - INFO - Transcript for Fadhiil Akmal Hamizan parsed successfully.
+2025-06-27 21:02:40,451 - INFO - Student record updated for: Fadhiil Akmal Hamizan
+2025-06-27 21:02:40,465 - INFO - Loaded 18 of 18 courses for Fadhiil Akmal Hamizan.
+2025-06-27 21:02:40,465 - INFO - Loaded 3 of 3 semester records for Fadhiil Akmal Hamizan.
+2025-06-27 21:02:40,465 - INFO - Finished processing: Fadhiil Akmal Hamizan_5026231128.pdf
+2025-06-27 21:02:40,465 - INFO - Now processing: Kurnia Yufi Satrio Laksono_5026231086.pdf
+2025-06-27 21:02:40,479 - INFO - Text extracted and cleaned from Kurnia Yufi Satrio Laksono_5026231086.pdf.
+2025-06-27 21:02:40,480 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:40,480 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:40,480 - INFO - Transcript for Kurnia Yufi Satrio Laksono parsed successfully.
+2025-06-27 21:02:40,481 - INFO - Student record updated for: Kurnia Yufi Satrio Laksono
+2025-06-27 21:02:40,494 - INFO - Loaded 19 of 19 courses for Kurnia Yufi Satrio Laksono.
+2025-06-27 21:02:40,494 - INFO - Loaded 3 of 3 semester records for Kurnia Yufi Satrio Laksono.
+2025-06-27 21:02:40,494 - INFO - Finished processing: Kurnia Yufi Satrio Laksono_5026231086.pdf
+2025-06-27 21:02:40,494 - INFO - Now processing: Faiz Hazmi Maulana_5026231230.pdf
+2025-06-27 21:02:40,507 - INFO - Text extracted and cleaned from Faiz Hazmi Maulana_5026231230.pdf.
+2025-06-27 21:02:40,507 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:40,507 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:40,507 - INFO - Transcript for Faiz Hazmi Maulana parsed successfully.
+2025-06-27 21:02:40,508 - INFO - Student record updated for: Faiz Hazmi Maulana
+2025-06-27 21:02:40,542 - INFO - Loaded 19 of 19 courses for Faiz Hazmi Maulana.
+2025-06-27 21:02:40,542 - INFO - Loaded 3 of 3 semester records for Faiz Hazmi Maulana.
+2025-06-27 21:02:40,542 - INFO - Finished processing: Faiz Hazmi Maulana_5026231230.pdf
+2025-06-27 21:02:40,543 - INFO - Now processing: Farrel Aditya Rosyidi - 5026231177.pdf
+2025-06-27 21:02:40,604 - INFO - Text extracted and cleaned from Farrel Aditya Rosyidi - 5026231177.pdf.
+2025-06-27 21:02:40,604 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:40,604 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:40,604 - INFO - Transcript for Farrel Aditya Rosyidi parsed successfully.
+2025-06-27 21:02:40,753 - INFO - Student record updated for: Farrel Aditya Rosyidi
+2025-06-27 21:02:40,829 - INFO - Loaded 19 of 19 courses for Farrel Aditya Rosyidi.
+2025-06-27 21:02:40,829 - INFO - Loaded 3 of 3 semester records for Farrel Aditya Rosyidi.
+2025-06-27 21:02:40,829 - INFO - Finished processing: Farrel Aditya Rosyidi - 5026231177.pdf
+2025-06-27 21:02:40,829 - INFO - Now processing: Daniel Bara - 5026231169.pdf
+2025-06-27 21:02:40,878 - INFO - Text extracted and cleaned from Daniel Bara - 5026231169.pdf.
+2025-06-27 21:02:40,878 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:40,878 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:40,878 - INFO - Transcript for Daniel Bara Seftino parsed successfully.
+2025-06-27 21:02:40,880 - INFO - Student record updated for: Daniel Bara Seftino
+2025-06-27 21:02:40,900 - INFO - Loaded 19 of 19 courses for Daniel Bara Seftino.
+2025-06-27 21:02:40,900 - INFO - Loaded 3 of 3 semester records for Daniel Bara Seftino.
+2025-06-27 21:02:40,900 - INFO - Finished processing: Daniel Bara - 5026231169.pdf
+2025-06-27 21:02:40,901 - INFO - Now processing: Ananda Donelly Reksana - 5026231149.pdf
+2025-06-27 21:02:40,924 - INFO - Text extracted and cleaned from Ananda Donelly Reksana - 5026231149.pdf.
+2025-06-27 21:02:40,924 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:40,924 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:40,924 - INFO - Transcript for Ananda Donelly Reksana parsed successfully.
+2025-06-27 21:02:40,925 - INFO - Student record updated for: Ananda Donelly Reksana
+2025-06-27 21:02:40,943 - INFO - Loaded 19 of 19 courses for Ananda Donelly Reksana.
+2025-06-27 21:02:40,943 - INFO - Loaded 3 of 3 semester records for Ananda Donelly Reksana.
+2025-06-27 21:02:40,943 - INFO - Finished processing: Ananda Donelly Reksana - 5026231149.pdf
+2025-06-27 21:02:40,943 - INFO - Now processing: Abrorus Shobah - 5026231145.pdf
+2025-06-27 21:02:40,974 - INFO - Text extracted and cleaned from Abrorus Shobah - 5026231145.pdf.
+2025-06-27 21:02:40,974 - INFO - Found and parsed 18 courses.
+2025-06-27 21:02:40,974 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:40,974 - INFO - Transcript for Abrorus Shobah parsed successfully.
+2025-06-27 21:02:40,975 - INFO - Student record updated for: Abrorus Shobah
+2025-06-27 21:02:40,993 - INFO - Loaded 18 of 18 courses for Abrorus Shobah.
+2025-06-27 21:02:40,993 - INFO - Loaded 3 of 3 semester records for Abrorus Shobah.
+2025-06-27 21:02:40,993 - INFO - Finished processing: Abrorus Shobah - 5026231145.pdf
+2025-06-27 21:02:40,993 - INFO - Now processing: Fachry Fariska Ilham - 5026231153.pdf
+2025-06-27 21:02:41,029 - INFO - Text extracted and cleaned from Fachry Fariska Ilham - 5026231153.pdf.
+2025-06-27 21:02:41,030 - INFO - Found and parsed 17 courses.
+2025-06-27 21:02:41,030 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:41,030 - INFO - Transcript for Fachry Fariska Ilham parsed successfully.
+2025-06-27 21:02:41,031 - INFO - Student record updated for: Fachry Fariska Ilham
+2025-06-27 21:02:41,048 - INFO - Loaded 17 of 17 courses for Fachry Fariska Ilham.
+2025-06-27 21:02:41,048 - INFO - Loaded 3 of 3 semester records for Fachry Fariska Ilham.
+2025-06-27 21:02:41,048 - INFO - Finished processing: Fachry Fariska Ilham - 5026231153.pdf
+2025-06-27 21:02:41,048 - INFO - Now processing: Achmad Andi M H - 5026231207.pdf
+2025-06-27 21:02:41,057 - INFO - Text extracted and cleaned from Achmad Andi M H - 5026231207.pdf.
+2025-06-27 21:02:41,057 - INFO - Found and parsed 18 courses.
+2025-06-27 21:02:41,057 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:41,057 - INFO - Transcript for Achmad Andi Miftakhul Huda parsed successfully.
+2025-06-27 21:02:41,057 - INFO - Student record updated for: Achmad Andi Miftakhul Huda
+2025-06-27 21:02:41,070 - INFO - Loaded 18 of 18 courses for Achmad Andi Miftakhul Huda.
+2025-06-27 21:02:41,070 - INFO - Loaded 3 of 3 semester records for Achmad Andi Miftakhul Huda.
+2025-06-27 21:02:41,070 - INFO - Finished processing: Achmad Andi M H - 5026231207.pdf
+2025-06-27 21:02:41,070 - INFO - Now processing: Cindy Fatika Ekawati_5026231039.pdf
+2025-06-27 21:02:41,081 - INFO - Text extracted and cleaned from Cindy Fatika Ekawati_5026231039.pdf.
+2025-06-27 21:02:41,081 - INFO - Found and parsed 16 courses.
+2025-06-27 21:02:41,081 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:41,081 - INFO - Transcript for Cindy Fatika Eka wati parsed successfully.
+2025-06-27 21:02:41,081 - INFO - Student record updated for: Cindy Fatika Eka wati
+2025-06-27 21:02:41,091 - INFO - Loaded 16 of 16 courses for Cindy Fatika Eka wati.
+2025-06-27 21:02:41,091 - INFO - Loaded 3 of 3 semester records for Cindy Fatika Eka wati.
+2025-06-27 21:02:41,091 - INFO - Finished processing: Cindy Fatika Ekawati_5026231039.pdf
+2025-06-27 21:02:41,091 - INFO - Now processing: Jannati Urfa Muhayat-5026231185.pdf
+2025-06-27 21:02:41,126 - INFO - Text extracted and cleaned from Jannati Urfa Muhayat-5026231185.pdf.
+2025-06-27 21:02:41,126 - INFO - Found and parsed 19 courses.
+2025-06-27 21:02:41,126 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:02:41,126 - INFO - Transcript for Jannati Urfa Muhayat parsed successfully.
+2025-06-27 21:02:41,127 - INFO - Student record updated for: Jannati Urfa Muhayat
+2025-06-27 21:02:41,145 - INFO - Loaded 19 of 19 courses for Jannati Urfa Muhayat.
+2025-06-27 21:02:41,145 - INFO - Loaded 3 of 3 semester records for Jannati Urfa Muhayat.
+2025-06-27 21:02:41,145 - INFO - Finished processing: Jannati Urfa Muhayat-5026231185.pdf
+2025-06-27 21:02:41,145 - INFO - ============================================================
+2025-06-27 21:02:41,145 - INFO - ALL TASKS FINISHED
+2025-06-27 21:02:41,145 - INFO - Files processed successfully: 43
+2025-06-27 21:02:41,145 - INFO - Files that failed processing: 0
+2025-06-27 21:02:41,145 - INFO - ============================================================
+2025-06-27 21:02:41,145 - INFO - Connection to database has been closed.
+2025-06-27 21:17:51,109 - INFO - package: mysql.connector.plugins
+2025-06-27 21:17:51,110 - INFO - plugin_name: mysql_native_password
+2025-06-27 21:17:51,110 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-27 21:17:51,111 - ERROR - Could not connect to the database: 1049 (42000): Unknown database 'dlh_data_warehouse'
+2025-06-27 21:18:08,707 - INFO - package: mysql.connector.plugins
+2025-06-27 21:18:08,708 - INFO - plugin_name: mysql_native_password
+2025-06-27 21:18:08,708 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-27 21:18:08,709 - INFO - Successfully connected to the database.
+2025-06-27 21:18:08,763 - INFO - New schema tables have been created.
+2025-06-27 21:18:08,763 - INFO - Schema setup is complete.
+2025-06-27 21:18:08,766 - INFO - Initial grade data has been inserted into Dim_Nilai.
+2025-06-27 21:18:08,767 - INFO - Loaded grade-to-weight mapping into memory.
+2025-06-27 21:18:08,767 - INFO - Kicking off transcript processing...
+2025-06-27 21:18:08,767 - INFO - Located 43 PDF files for processing.
+2025-06-27 21:18:08,768 - INFO - Now processing: Marco Indrajaya-5026231031.pdf
+2025-06-27 21:18:08,803 - INFO - Text extracted and cleaned from Marco Indrajaya-5026231031.pdf.
+2025-06-27 21:18:08,804 - INFO - Found and parsed 18 courses.
+2025-06-27 21:18:08,804 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:08,804 - INFO - Transcript for Marco Indrajaya parsed successfully.
+2025-06-27 21:18:08,806 - INFO - New student record created for: Marco Indrajaya
+2025-06-27 21:18:08,827 - INFO - Loaded 18 of 18 courses for Marco Indrajaya.
+2025-06-27 21:18:08,827 - INFO - Loaded 3 of 3 semester records for Marco Indrajaya.
+2025-06-27 21:18:08,827 - INFO - Finished processing: Marco Indrajaya-5026231031.pdf
+2025-06-27 21:18:08,827 - INFO - Now processing: Nadia Lovely - 5026231007.pdf
+2025-06-27 21:18:08,840 - INFO - Text extracted and cleaned from Nadia Lovely - 5026231007.pdf.
+2025-06-27 21:18:08,840 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:08,840 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:08,840 - INFO - Transcript for Nadia Lovely parsed successfully.
+2025-06-27 21:18:08,841 - INFO - New student record created for: Nadia Lovely
+2025-06-27 21:18:08,855 - INFO - Loaded 19 of 19 courses for Nadia Lovely.
+2025-06-27 21:18:08,855 - INFO - Loaded 3 of 3 semester records for Nadia Lovely.
+2025-06-27 21:18:08,855 - INFO - Finished processing: Nadia Lovely - 5026231007.pdf
+2025-06-27 21:18:08,855 - INFO - Now processing: Muhammad Gandhi Taqi Utomo - 5026231160.pdf
+2025-06-27 21:18:08,867 - INFO - Text extracted and cleaned from Muhammad Gandhi Taqi Utomo - 5026231160.pdf.
+2025-06-27 21:18:08,867 - INFO - Found and parsed 18 courses.
+2025-06-27 21:18:08,868 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:08,868 - INFO - Transcript for Muhammad Gandhi Taqi Utomo parsed successfully.
+2025-06-27 21:18:08,868 - INFO - New student record created for: Muhammad Gandhi Taqi Utomo
+2025-06-27 21:18:08,881 - INFO - Loaded 18 of 18 courses for Muhammad Gandhi Taqi Utomo.
+2025-06-27 21:18:08,881 - INFO - Loaded 3 of 3 semester records for Muhammad Gandhi Taqi Utomo.
+2025-06-27 21:18:08,881 - INFO - Finished processing: Muhammad Gandhi Taqi Utomo - 5026231160.pdf
+2025-06-27 21:18:08,881 - INFO - Now processing: Muhammad Daniel Alfarisi - 5026231161.pdf
+2025-06-27 21:18:08,893 - INFO - Text extracted and cleaned from Muhammad Daniel Alfarisi - 5026231161.pdf.
+2025-06-27 21:18:08,893 - INFO - Found and parsed 18 courses.
+2025-06-27 21:18:08,893 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:08,893 - INFO - Transcript for Muhammad Daniel Alfarisi parsed successfully.
+2025-06-27 21:18:08,893 - INFO - New student record created for: Muhammad Daniel Alfarisi
+2025-06-27 21:18:08,906 - INFO - Loaded 18 of 18 courses for Muhammad Daniel Alfarisi.
+2025-06-27 21:18:08,906 - INFO - Loaded 3 of 3 semester records for Muhammad Daniel Alfarisi.
+2025-06-27 21:18:08,906 - INFO - Finished processing: Muhammad Daniel Alfarisi - 5026231161.pdf
+2025-06-27 21:18:08,906 - INFO - Now processing: Naura Salsabila - 5026231173.pdf
+2025-06-27 21:18:08,918 - INFO - Text extracted and cleaned from Naura Salsabila - 5026231173.pdf.
+2025-06-27 21:18:08,918 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:08,918 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:08,918 - INFO - Transcript for Naur a Salsabila parsed successfully.
+2025-06-27 21:18:08,919 - INFO - New student record created for: Naur a Salsabila
+2025-06-27 21:18:08,932 - INFO - Loaded 19 of 19 courses for Naur a Salsabila.
+2025-06-27 21:18:08,932 - INFO - Loaded 3 of 3 semester records for Naur a Salsabila.
+2025-06-27 21:18:08,932 - INFO - Finished processing: Naura Salsabila - 5026231173.pdf
+2025-06-27 21:18:08,932 - INFO - Now processing: Muhammad Zaky Al Khair - 5026231069.pdf
+2025-06-27 21:18:08,956 - INFO - Text extracted and cleaned from Muhammad Zaky Al Khair - 5026231069.pdf.
+2025-06-27 21:18:08,956 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:08,956 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:08,956 - INFO - Transcript for Muhammad Zaky Al Khair parsed successfully.
+2025-06-27 21:18:08,957 - INFO - New student record created for: Muhammad Zaky Al Khair
+2025-06-27 21:18:08,970 - INFO - Loaded 19 of 19 courses for Muhammad Zaky Al Khair.
+2025-06-27 21:18:08,970 - INFO - Loaded 3 of 3 semester records for Muhammad Zaky Al Khair.
+2025-06-27 21:18:08,970 - INFO - Finished processing: Muhammad Zaky Al Khair - 5026231069.pdf
+2025-06-27 21:18:08,970 - INFO - Now processing: Nadia Ayula Assyaputri - 5026231090.pdf
+2025-06-27 21:18:08,982 - INFO - Text extracted and cleaned from Nadia Ayula Assyaputri - 5026231090.pdf.
+2025-06-27 21:18:08,982 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:08,982 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:08,982 - INFO - Transcript for Nadia Ayula Assy aputri parsed successfully.
+2025-06-27 21:18:08,983 - INFO - New student record created for: Nadia Ayula Assy aputri
+2025-06-27 21:18:08,995 - INFO - Loaded 19 of 19 courses for Nadia Ayula Assy aputri.
+2025-06-27 21:18:08,995 - INFO - Loaded 3 of 3 semester records for Nadia Ayula Assy aputri.
+2025-06-27 21:18:08,995 - INFO - Finished processing: Nadia Ayula Assyaputri - 5026231090.pdf
+2025-06-27 21:18:08,995 - INFO - Now processing: William Bryan Pangestu - 5026231011.pdf
+2025-06-27 21:18:09,006 - INFO - Text extracted and cleaned from William Bryan Pangestu - 5026231011.pdf.
+2025-06-27 21:18:09,006 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,006 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,006 - INFO - Transcript for William Bry an Pangestu parsed successfully.
+2025-06-27 21:18:09,006 - INFO - New student record created for: William Bry an Pangestu
+2025-06-27 21:18:09,017 - INFO - Loaded 19 of 19 courses for William Bry an Pangestu.
+2025-06-27 21:18:09,017 - INFO - Loaded 3 of 3 semester records for William Bry an Pangestu.
+2025-06-27 21:18:09,017 - INFO - Finished processing: William Bryan Pangestu - 5026231011.pdf
+2025-06-27 21:18:09,017 - INFO - Now processing: Aqilah Ummu - 5026231140.pdf
+2025-06-27 21:18:09,037 - INFO - Text extracted and cleaned from Aqilah Ummu - 5026231140.pdf.
+2025-06-27 21:18:09,037 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,037 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,037 - INFO - Transcript for Aqilah Ummu Al Na wiswary parsed successfully.
+2025-06-27 21:18:09,038 - INFO - New student record created for: Aqilah Ummu Al Na wiswary
+2025-06-27 21:18:09,050 - INFO - Loaded 19 of 19 courses for Aqilah Ummu Al Na wiswary.
+2025-06-27 21:18:09,050 - INFO - Loaded 3 of 3 semester records for Aqilah Ummu Al Na wiswary.
+2025-06-27 21:18:09,050 - INFO - Finished processing: Aqilah Ummu - 5026231140.pdf
+2025-06-27 21:18:09,050 - INFO - Now processing: Muhammad Fawwaz Athaillah Anwar - 5026231157.pdf
+2025-06-27 21:18:09,074 - INFO - Text extracted and cleaned from Muhammad Fawwaz Athaillah Anwar - 5026231157.pdf.
+2025-06-27 21:18:09,074 - INFO - Found and parsed 13 courses.
+2025-06-27 21:18:09,074 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,074 - INFO - Transcript for Muhammad Fawwaz Athaillah Anwar parsed successfully.
+2025-06-27 21:18:09,075 - INFO - New student record created for: Muhammad Fawwaz Athaillah Anwar
+2025-06-27 21:18:09,083 - INFO - Loaded 13 of 13 courses for Muhammad Fawwaz Athaillah Anwar.
+2025-06-27 21:18:09,084 - INFO - Loaded 3 of 3 semester records for Muhammad Fawwaz Athaillah Anwar.
+2025-06-27 21:18:09,084 - INFO - Finished processing: Muhammad Fawwaz Athaillah Anwar - 5026231157.pdf
+2025-06-27 21:18:09,084 - INFO - Now processing: Putu Arya Yubi Wirayudha - 5026231165.pdf
+2025-06-27 21:18:09,096 - INFO - Text extracted and cleaned from Putu Arya Yubi Wirayudha - 5026231165.pdf.
+2025-06-27 21:18:09,096 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,096 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,096 - INFO - Transcript for Putu Ary a Yubi Wir ayudha parsed successfully.
+2025-06-27 21:18:09,097 - INFO - New student record created for: Putu Ary a Yubi Wir ayudha
+2025-06-27 21:18:09,108 - INFO - Loaded 19 of 19 courses for Putu Ary a Yubi Wir ayudha.
+2025-06-27 21:18:09,108 - INFO - Loaded 3 of 3 semester records for Putu Ary a Yubi Wir ayudha.
+2025-06-27 21:18:09,108 - INFO - Finished processing: Putu Arya Yubi Wirayudha - 5026231165.pdf
+2025-06-27 21:18:09,108 - INFO - Now processing: Vivi Alvianita - 5026231226.pdf
+2025-06-27 21:18:09,119 - INFO - Text extracted and cleaned from Vivi Alvianita - 5026231226.pdf.
+2025-06-27 21:18:09,119 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,119 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,119 - INFO - Transcript for Vivi Alvianita parsed successfully.
+2025-06-27 21:18:09,120 - INFO - New student record created for: Vivi Alvianita
+2025-06-27 21:18:09,130 - INFO - Loaded 19 of 19 courses for Vivi Alvianita.
+2025-06-27 21:18:09,130 - INFO - Loaded 3 of 3 semester records for Vivi Alvianita.
+2025-06-27 21:18:09,130 - INFO - Finished processing: Vivi Alvianita - 5026231226.pdf
+2025-06-27 21:18:09,130 - INFO - Now processing: Clay Amsal Sebastian Hutabarat - 5026231132.pdf
+2025-06-27 21:18:09,160 - INFO - Text extracted and cleaned from Clay Amsal Sebastian Hutabarat - 5026231132.pdf.
+2025-06-27 21:18:09,160 - INFO - Found and parsed 18 courses.
+2025-06-27 21:18:09,161 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,161 - INFO - Transcript for Clay Amsal Sebastian Hutabarat parsed successfully.
+2025-06-27 21:18:09,161 - INFO - New student record created for: Clay Amsal Sebastian Hutabarat
+2025-06-27 21:18:09,173 - INFO - Loaded 18 of 18 courses for Clay Amsal Sebastian Hutabarat.
+2025-06-27 21:18:09,173 - INFO - Loaded 3 of 3 semester records for Clay Amsal Sebastian Hutabarat.
+2025-06-27 21:18:09,173 - INFO - Finished processing: Clay Amsal Sebastian Hutabarat - 5026231132.pdf
+2025-06-27 21:18:09,173 - INFO - Now processing: Hilman Mumtaz Sya_bani_5026231078.pdf
+2025-06-27 21:18:09,184 - INFO - Text extracted and cleaned from Hilman Mumtaz Sya_bani_5026231078.pdf.
+2025-06-27 21:18:09,184 - INFO - Found and parsed 20 courses.
+2025-06-27 21:18:09,184 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,184 - INFO - Transcript for Hilman Mumtaz Sya`bani parsed successfully.
+2025-06-27 21:18:09,185 - INFO - New student record created for: Hilman Mumtaz Sya`bani
+2025-06-27 21:18:09,198 - INFO - Loaded 20 of 20 courses for Hilman Mumtaz Sya`bani.
+2025-06-27 21:18:09,198 - INFO - Loaded 3 of 3 semester records for Hilman Mumtaz Sya`bani.
+2025-06-27 21:18:09,198 - INFO - Finished processing: Hilman Mumtaz Sya_bani_5026231078.pdf
+2025-06-27 21:18:09,198 - INFO - Now processing: Nailah Qonitah Firdausa - 5026231106.pdf
+2025-06-27 21:18:09,240 - INFO - Text extracted and cleaned from Nailah Qonitah Firdausa - 5026231106.pdf.
+2025-06-27 21:18:09,241 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,241 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,241 - INFO - Transcript for Nailah Qonitah Firdausa parsed successfully.
+2025-06-27 21:18:09,242 - INFO - New student record created for: Nailah Qonitah Firdausa
+2025-06-27 21:18:09,255 - INFO - Loaded 19 of 19 courses for Nailah Qonitah Firdausa.
+2025-06-27 21:18:09,255 - INFO - Loaded 3 of 3 semester records for Nailah Qonitah Firdausa.
+2025-06-27 21:18:09,255 - INFO - Finished processing: Nailah Qonitah Firdausa - 5026231106.pdf
+2025-06-27 21:18:09,255 - INFO - Now processing: ibrahim amar alfanani-5026231195.pdf
+2025-06-27 21:18:09,285 - INFO - Text extracted and cleaned from ibrahim amar alfanani-5026231195.pdf.
+2025-06-27 21:18:09,286 - INFO - Found and parsed 18 courses.
+2025-06-27 21:18:09,286 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,286 - INFO - Transcript for Ibrahim Amar Alfanani parsed successfully.
+2025-06-27 21:18:09,286 - INFO - New student record created for: Ibrahim Amar Alfanani
+2025-06-27 21:18:09,299 - INFO - Loaded 18 of 18 courses for Ibrahim Amar Alfanani.
+2025-06-27 21:18:09,299 - INFO - Loaded 3 of 3 semester records for Ibrahim Amar Alfanani.
+2025-06-27 21:18:09,299 - INFO - Finished processing: ibrahim amar alfanani-5026231195.pdf
+2025-06-27 21:18:09,299 - INFO - Now processing: Faris Abqori - 5026231015.pdf
+2025-06-27 21:18:09,320 - INFO - Text extracted and cleaned from Faris Abqori - 5026231015.pdf.
+2025-06-27 21:18:09,320 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,320 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,320 - INFO - Transcript for Faris Abqori parsed successfully.
+2025-06-27 21:18:09,321 - INFO - New student record created for: Faris Abqori
+2025-06-27 21:18:09,333 - INFO - Loaded 19 of 19 courses for Faris Abqori.
+2025-06-27 21:18:09,333 - INFO - Loaded 3 of 3 semester records for Faris Abqori.
+2025-06-27 21:18:09,333 - INFO - Finished processing: Faris Abqori - 5026231015.pdf
+2025-06-27 21:18:09,333 - INFO - Now processing: Nadya Luthfiyah Rahma - 5026231023.pdf
+2025-06-27 21:18:09,346 - INFO - Text extracted and cleaned from Nadya Luthfiyah Rahma - 5026231023.pdf.
+2025-06-27 21:18:09,346 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,346 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,346 - INFO - Transcript for Nady a Luthfiy ah Rahma parsed successfully.
+2025-06-27 21:18:09,347 - INFO - New student record created for: Nady a Luthfiy ah Rahma
+2025-06-27 21:18:09,357 - INFO - Loaded 19 of 19 courses for Nady a Luthfiy ah Rahma.
+2025-06-27 21:18:09,357 - INFO - Loaded 3 of 3 semester records for Nady a Luthfiy ah Rahma.
+2025-06-27 21:18:09,357 - INFO - Finished processing: Nadya Luthfiyah Rahma - 5026231023.pdf
+2025-06-27 21:18:09,357 - INFO - Now processing: Muhammad Rajja Fadzell Auraffa A - 5026231110.pdf
+2025-06-27 21:18:09,378 - INFO - Text extracted and cleaned from Muhammad Rajja Fadzell Auraffa A - 5026231110.pdf.
+2025-06-27 21:18:09,378 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,378 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,378 - INFO - Transcript for Muhammad Rajja Fadzell Auraffa Ariandi parsed successfully.
+2025-06-27 21:18:09,379 - INFO - New student record created for: Muhammad Rajja Fadzell Auraffa Ariandi
+2025-06-27 21:18:09,389 - INFO - Loaded 19 of 19 courses for Muhammad Rajja Fadzell Auraffa Ariandi.
+2025-06-27 21:18:09,389 - INFO - Loaded 3 of 3 semester records for Muhammad Rajja Fadzell Auraffa Ariandi.
+2025-06-27 21:18:09,389 - INFO - Finished processing: Muhammad Rajja Fadzell Auraffa A - 5026231110.pdf
+2025-06-27 21:18:09,389 - INFO - Now processing: Nathaniel Lado Hadi Winata - 5026231019.pdf
+2025-06-27 21:18:09,422 - INFO - Text extracted and cleaned from Nathaniel Lado Hadi Winata - 5026231019.pdf.
+2025-06-27 21:18:09,422 - INFO - Found and parsed 18 courses.
+2025-06-27 21:18:09,422 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,422 - INFO - Transcript for Nathaniel Lado Hadi Winata parsed successfully.
+2025-06-27 21:18:09,424 - INFO - New student record created for: Nathaniel Lado Hadi Winata
+2025-06-27 21:18:09,437 - INFO - Loaded 18 of 18 courses for Nathaniel Lado Hadi Winata.
+2025-06-27 21:18:09,437 - INFO - Loaded 3 of 3 semester records for Nathaniel Lado Hadi Winata.
+2025-06-27 21:18:09,437 - INFO - Finished processing: Nathaniel Lado Hadi Winata - 5026231019.pdf
+2025-06-27 21:18:09,437 - INFO - Now processing: Gerald Marcell Van Rayne - 5026231073.pdf
+2025-06-27 21:18:09,478 - INFO - Text extracted and cleaned from Gerald Marcell Van Rayne - 5026231073.pdf.
+2025-06-27 21:18:09,478 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,478 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,478 - INFO - Transcript for Gerald Marcell Van Rayne parsed successfully.
+2025-06-27 21:18:09,479 - INFO - New student record created for: Gerald Marcell Van Rayne
+2025-06-27 21:18:09,494 - INFO - Loaded 19 of 19 courses for Gerald Marcell Van Rayne.
+2025-06-27 21:18:09,494 - INFO - Loaded 3 of 3 semester records for Gerald Marcell Van Rayne.
+2025-06-27 21:18:09,494 - INFO - Finished processing: Gerald Marcell Van Rayne - 5026231073.pdf
+2025-06-27 21:18:09,494 - INFO - Now processing: Antony Purnamarasid August Ratulangi - 5026231190.pdf
+2025-06-27 21:18:09,504 - INFO - Text extracted and cleaned from Antony Purnamarasid August Ratulangi - 5026231190.pdf.
+2025-06-27 21:18:09,505 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,505 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,505 - INFO - Transcript for Anton y Purnamar asid August Ratulangi parsed successfully.
+2025-06-27 21:18:09,505 - INFO - New student record created for: Anton y Purnamar asid August Ratulangi
+2025-06-27 21:18:09,517 - INFO - Loaded 19 of 19 courses for Anton y Purnamar asid August Ratulangi.
+2025-06-27 21:18:09,517 - INFO - Loaded 3 of 3 semester records for Anton y Purnamar asid August Ratulangi.
+2025-06-27 21:18:09,517 - INFO - Finished processing: Antony Purnamarasid August Ratulangi - 5026231190.pdf
+2025-06-27 21:18:09,517 - INFO - Now processing: Beh Siu Li_5026231065 (2).pdf
+2025-06-27 21:18:09,547 - INFO - Text extracted and cleaned from Beh Siu Li_5026231065 (2).pdf.
+2025-06-27 21:18:09,547 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,547 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,547 - INFO - Transcript for Beh Siu Li parsed successfully.
+2025-06-27 21:18:09,548 - INFO - New student record created for: Beh Siu Li
+2025-06-27 21:18:09,561 - INFO - Loaded 19 of 19 courses for Beh Siu Li.
+2025-06-27 21:18:09,561 - INFO - Loaded 3 of 3 semester records for Beh Siu Li.
+2025-06-27 21:18:09,561 - INFO - Finished processing: Beh Siu Li_5026231065 (2).pdf
+2025-06-27 21:18:09,561 - INFO - Now processing: Ahmed Miftah Ghiffari - 5026231102.pdf
+2025-06-27 21:18:09,572 - INFO - Text extracted and cleaned from Ahmed Miftah Ghiffari - 5026231102.pdf.
+2025-06-27 21:18:09,572 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,572 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,572 - INFO - Transcript for Ahmed Miftah Ghiffari parsed successfully.
+2025-06-27 21:18:09,573 - INFO - New student record created for: Ahmed Miftah Ghiffari
+2025-06-27 21:18:09,586 - INFO - Loaded 19 of 19 courses for Ahmed Miftah Ghiffari.
+2025-06-27 21:18:09,586 - INFO - Loaded 3 of 3 semester records for Ahmed Miftah Ghiffari.
+2025-06-27 21:18:09,586 - INFO - Finished processing: Ahmed Miftah Ghiffari - 5026231102.pdf
+2025-06-27 21:18:09,586 - INFO - Now processing: Davina Almeira - 5026231094.pdf
+2025-06-27 21:18:09,616 - INFO - Text extracted and cleaned from Davina Almeira - 5026231094.pdf.
+2025-06-27 21:18:09,617 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,617 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,617 - INFO - Transcript for Davina Almeira parsed successfully.
+2025-06-27 21:18:09,617 - INFO - New student record created for: Davina Almeira
+2025-06-27 21:18:09,630 - INFO - Loaded 19 of 19 courses for Davina Almeira.
+2025-06-27 21:18:09,630 - INFO - Loaded 3 of 3 semester records for Davina Almeira.
+2025-06-27 21:18:09,631 - INFO - Finished processing: Davina Almeira - 5026231094.pdf
+2025-06-27 21:18:09,631 - INFO - Now processing: Felix Prajna Santoso-5026231027.pdf
+2025-06-27 21:18:09,667 - INFO - Text extracted and cleaned from Felix Prajna Santoso-5026231027.pdf.
+2025-06-27 21:18:09,668 - INFO - Found and parsed 17 courses.
+2025-06-27 21:18:09,668 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,668 - INFO - Transcript for Felix Prajna Santoso parsed successfully.
+2025-06-27 21:18:09,669 - INFO - New student record created for: Felix Prajna Santoso
+2025-06-27 21:18:09,681 - INFO - Loaded 17 of 17 courses for Felix Prajna Santoso.
+2025-06-27 21:18:09,681 - INFO - Loaded 3 of 3 semester records for Felix Prajna Santoso.
+2025-06-27 21:18:09,681 - INFO - Finished processing: Felix Prajna Santoso-5026231027.pdf
+2025-06-27 21:18:09,681 - INFO - Now processing: Muhammmad Faiz Roihan - 5026231098.pdf
+2025-06-27 21:18:09,713 - INFO - Text extracted and cleaned from Muhammmad Faiz Roihan - 5026231098.pdf.
+2025-06-27 21:18:09,713 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,713 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,713 - INFO - Transcript for Muhammad Faiz Roihan parsed successfully.
+2025-06-27 21:18:09,714 - INFO - New student record created for: Muhammad Faiz Roihan
+2025-06-27 21:18:09,728 - INFO - Loaded 19 of 19 courses for Muhammad Faiz Roihan.
+2025-06-27 21:18:09,728 - INFO - Loaded 3 of 3 semester records for Muhammad Faiz Roihan.
+2025-06-27 21:18:09,728 - INFO - Finished processing: Muhammmad Faiz Roihan - 5026231098.pdf
+2025-06-27 21:18:09,728 - INFO - Now processing: Maulana Muhammad Ad-Dzikri - 5026231136.PDF.pdf
+2025-06-27 21:18:09,747 - INFO - Text extracted and cleaned from Maulana Muhammad Ad-Dzikri - 5026231136.PDF.pdf.
+2025-06-27 21:18:09,747 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,747 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,747 - INFO - Transcript for Maulana Muhammad Ad-dzikri parsed successfully.
+2025-06-27 21:18:09,748 - INFO - New student record created for: Maulana Muhammad Ad-dzikri
+2025-06-27 21:18:09,760 - INFO - Loaded 19 of 19 courses for Maulana Muhammad Ad-dzikri.
+2025-06-27 21:18:09,760 - INFO - Loaded 3 of 3 semester records for Maulana Muhammad Ad-dzikri.
+2025-06-27 21:18:09,760 - INFO - Finished processing: Maulana Muhammad Ad-Dzikri - 5026231136.PDF.pdf
+2025-06-27 21:18:09,760 - INFO - Now processing: Hafidz Putra Dermawan - 5026231211.pdf
+2025-06-27 21:18:09,790 - INFO - Text extracted and cleaned from Hafidz Putra Dermawan - 5026231211.pdf.
+2025-06-27 21:18:09,791 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,791 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,791 - INFO - Transcript for Hafidz Putra Dermawan parsed successfully.
+2025-06-27 21:18:09,792 - INFO - New student record created for: Hafidz Putra Dermawan
+2025-06-27 21:18:09,805 - INFO - Loaded 19 of 19 courses for Hafidz Putra Dermawan.
+2025-06-27 21:18:09,805 - INFO - Loaded 3 of 3 semester records for Hafidz Putra Dermawan.
+2025-06-27 21:18:09,805 - INFO - Finished processing: Hafidz Putra Dermawan - 5026231211.pdf
+2025-06-27 21:18:09,805 - INFO - Now processing: Umar Al Haddad - 5026231215.pdf
+2025-06-27 21:18:09,831 - INFO - Text extracted and cleaned from Umar Al Haddad - 5026231215.pdf.
+2025-06-27 21:18:09,831 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,831 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,831 - INFO - Transcript for Umar Al-haddad parsed successfully.
+2025-06-27 21:18:09,832 - INFO - New student record created for: Umar Al-haddad
+2025-06-27 21:18:09,846 - INFO - Loaded 19 of 19 courses for Umar Al-haddad.
+2025-06-27 21:18:09,846 - INFO - Loaded 3 of 3 semester records for Umar Al-haddad.
+2025-06-27 21:18:09,846 - INFO - Finished processing: Umar Al Haddad - 5026231215.pdf
+2025-06-27 21:18:09,846 - INFO - Now processing: Naufal Zaky Nugraha_5026231082.pdf
+2025-06-27 21:18:09,877 - INFO - Text extracted and cleaned from Naufal Zaky Nugraha_5026231082.pdf.
+2025-06-27 21:18:09,877 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,877 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,877 - INFO - Transcript for Naufal Zaky Nugraha parsed successfully.
+2025-06-27 21:18:09,878 - INFO - New student record created for: Naufal Zaky Nugraha
+2025-06-27 21:18:09,891 - INFO - Loaded 19 of 19 courses for Naufal Zaky Nugraha.
+2025-06-27 21:18:09,891 - INFO - Loaded 3 of 3 semester records for Naufal Zaky Nugraha.
+2025-06-27 21:18:09,891 - INFO - Finished processing: Naufal Zaky Nugraha_5026231082.pdf
+2025-06-27 21:18:09,891 - INFO - Now processing: Komang Alit Pujangga_5026231115.pdf
+2025-06-27 21:18:09,920 - INFO - Text extracted and cleaned from Komang Alit Pujangga_5026231115.pdf.
+2025-06-27 21:18:09,920 - INFO - Found and parsed 17 courses.
+2025-06-27 21:18:09,920 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,920 - INFO - Transcript for Komang Alit Pujangga parsed successfully.
+2025-06-27 21:18:09,921 - INFO - New student record created for: Komang Alit Pujangga
+2025-06-27 21:18:09,933 - INFO - Loaded 17 of 17 courses for Komang Alit Pujangga.
+2025-06-27 21:18:09,933 - INFO - Loaded 3 of 3 semester records for Komang Alit Pujangga.
+2025-06-27 21:18:09,933 - INFO - Finished processing: Komang Alit Pujangga_5026231115.pdf
+2025-06-27 21:18:09,933 - INFO - Now processing: Fadhiil Akmal Hamizan_5026231128.pdf
+2025-06-27 21:18:09,938 - INFO - Text extracted and cleaned from Fadhiil Akmal Hamizan_5026231128.pdf.
+2025-06-27 21:18:09,939 - INFO - Found and parsed 18 courses.
+2025-06-27 21:18:09,939 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,939 - INFO - Transcript for Fadhiil Akmal Hamizan parsed successfully.
+2025-06-27 21:18:09,939 - INFO - New student record created for: Fadhiil Akmal Hamizan
+2025-06-27 21:18:09,951 - INFO - Loaded 18 of 18 courses for Fadhiil Akmal Hamizan.
+2025-06-27 21:18:09,951 - INFO - Loaded 3 of 3 semester records for Fadhiil Akmal Hamizan.
+2025-06-27 21:18:09,951 - INFO - Finished processing: Fadhiil Akmal Hamizan_5026231128.pdf
+2025-06-27 21:18:09,951 - INFO - Now processing: Kurnia Yufi Satrio Laksono_5026231086.pdf
+2025-06-27 21:18:09,965 - INFO - Text extracted and cleaned from Kurnia Yufi Satrio Laksono_5026231086.pdf.
+2025-06-27 21:18:09,965 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:09,965 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:09,965 - INFO - Transcript for Kurnia Yufi Satrio Laksono parsed successfully.
+2025-06-27 21:18:09,966 - INFO - New student record created for: Kurnia Yufi Satrio Laksono
+2025-06-27 21:18:09,981 - INFO - Loaded 19 of 19 courses for Kurnia Yufi Satrio Laksono.
+2025-06-27 21:18:09,981 - INFO - Loaded 3 of 3 semester records for Kurnia Yufi Satrio Laksono.
+2025-06-27 21:18:09,981 - INFO - Finished processing: Kurnia Yufi Satrio Laksono_5026231086.pdf
+2025-06-27 21:18:09,981 - INFO - Now processing: Faiz Hazmi Maulana_5026231230.pdf
+2025-06-27 21:18:10,009 - INFO - Text extracted and cleaned from Faiz Hazmi Maulana_5026231230.pdf.
+2025-06-27 21:18:10,009 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:10,009 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:10,009 - INFO - Transcript for Faiz Hazmi Maulana parsed successfully.
+2025-06-27 21:18:10,010 - INFO - New student record created for: Faiz Hazmi Maulana
+2025-06-27 21:18:10,023 - INFO - Loaded 19 of 19 courses for Faiz Hazmi Maulana.
+2025-06-27 21:18:10,023 - INFO - Loaded 3 of 3 semester records for Faiz Hazmi Maulana.
+2025-06-27 21:18:10,023 - INFO - Finished processing: Faiz Hazmi Maulana_5026231230.pdf
+2025-06-27 21:18:10,023 - INFO - Now processing: Farrel Aditya Rosyidi - 5026231177.pdf
+2025-06-27 21:18:10,065 - INFO - Text extracted and cleaned from Farrel Aditya Rosyidi - 5026231177.pdf.
+2025-06-27 21:18:10,065 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:10,065 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:10,065 - INFO - Transcript for Farrel Aditya Rosyidi parsed successfully.
+2025-06-27 21:18:10,066 - INFO - New student record created for: Farrel Aditya Rosyidi
+2025-06-27 21:18:10,080 - INFO - Loaded 19 of 19 courses for Farrel Aditya Rosyidi.
+2025-06-27 21:18:10,080 - INFO - Loaded 3 of 3 semester records for Farrel Aditya Rosyidi.
+2025-06-27 21:18:10,080 - INFO - Finished processing: Farrel Aditya Rosyidi - 5026231177.pdf
+2025-06-27 21:18:10,080 - INFO - Now processing: Daniel Bara - 5026231169.pdf
+2025-06-27 21:18:10,112 - INFO - Text extracted and cleaned from Daniel Bara - 5026231169.pdf.
+2025-06-27 21:18:10,112 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:10,112 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:10,112 - INFO - Transcript for Daniel Bara Seftino parsed successfully.
+2025-06-27 21:18:10,113 - INFO - New student record created for: Daniel Bara Seftino
+2025-06-27 21:18:10,128 - INFO - Loaded 19 of 19 courses for Daniel Bara Seftino.
+2025-06-27 21:18:10,128 - INFO - Loaded 3 of 3 semester records for Daniel Bara Seftino.
+2025-06-27 21:18:10,128 - INFO - Finished processing: Daniel Bara - 5026231169.pdf
+2025-06-27 21:18:10,128 - INFO - Now processing: Ananda Donelly Reksana - 5026231149.pdf
+2025-06-27 21:18:10,149 - INFO - Text extracted and cleaned from Ananda Donelly Reksana - 5026231149.pdf.
+2025-06-27 21:18:10,149 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:10,149 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:10,149 - INFO - Transcript for Ananda Donelly Reksana parsed successfully.
+2025-06-27 21:18:10,150 - INFO - New student record created for: Ananda Donelly Reksana
+2025-06-27 21:18:10,164 - INFO - Loaded 19 of 19 courses for Ananda Donelly Reksana.
+2025-06-27 21:18:10,164 - INFO - Loaded 3 of 3 semester records for Ananda Donelly Reksana.
+2025-06-27 21:18:10,164 - INFO - Finished processing: Ananda Donelly Reksana - 5026231149.pdf
+2025-06-27 21:18:10,164 - INFO - Now processing: Abrorus Shobah - 5026231145.pdf
+2025-06-27 21:18:10,195 - INFO - Text extracted and cleaned from Abrorus Shobah - 5026231145.pdf.
+2025-06-27 21:18:10,196 - INFO - Found and parsed 18 courses.
+2025-06-27 21:18:10,196 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:10,196 - INFO - Transcript for Abrorus Shobah parsed successfully.
+2025-06-27 21:18:10,197 - INFO - New student record created for: Abrorus Shobah
+2025-06-27 21:18:10,212 - INFO - Loaded 18 of 18 courses for Abrorus Shobah.
+2025-06-27 21:18:10,212 - INFO - Loaded 3 of 3 semester records for Abrorus Shobah.
+2025-06-27 21:18:10,212 - INFO - Finished processing: Abrorus Shobah - 5026231145.pdf
+2025-06-27 21:18:10,212 - INFO - Now processing: Fachry Fariska Ilham - 5026231153.pdf
+2025-06-27 21:18:10,249 - INFO - Text extracted and cleaned from Fachry Fariska Ilham - 5026231153.pdf.
+2025-06-27 21:18:10,249 - INFO - Found and parsed 17 courses.
+2025-06-27 21:18:10,249 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:10,249 - INFO - Transcript for Fachry Fariska Ilham parsed successfully.
+2025-06-27 21:18:10,251 - INFO - New student record created for: Fachry Fariska Ilham
+2025-06-27 21:18:10,266 - INFO - Loaded 17 of 17 courses for Fachry Fariska Ilham.
+2025-06-27 21:18:10,266 - INFO - Loaded 3 of 3 semester records for Fachry Fariska Ilham.
+2025-06-27 21:18:10,266 - INFO - Finished processing: Fachry Fariska Ilham - 5026231153.pdf
+2025-06-27 21:18:10,267 - INFO - Now processing: Achmad Andi M H - 5026231207.pdf
+2025-06-27 21:18:10,275 - INFO - Text extracted and cleaned from Achmad Andi M H - 5026231207.pdf.
+2025-06-27 21:18:10,275 - INFO - Found and parsed 18 courses.
+2025-06-27 21:18:10,275 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:10,275 - INFO - Transcript for Achmad Andi Miftakhul Huda parsed successfully.
+2025-06-27 21:18:10,276 - INFO - New student record created for: Achmad Andi Miftakhul Huda
+2025-06-27 21:18:10,288 - INFO - Loaded 18 of 18 courses for Achmad Andi Miftakhul Huda.
+2025-06-27 21:18:10,288 - INFO - Loaded 3 of 3 semester records for Achmad Andi Miftakhul Huda.
+2025-06-27 21:18:10,288 - INFO - Finished processing: Achmad Andi M H - 5026231207.pdf
+2025-06-27 21:18:10,288 - INFO - Now processing: Cindy Fatika Ekawati_5026231039.pdf
+2025-06-27 21:18:10,300 - INFO - Text extracted and cleaned from Cindy Fatika Ekawati_5026231039.pdf.
+2025-06-27 21:18:10,300 - INFO - Found and parsed 16 courses.
+2025-06-27 21:18:10,300 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:10,300 - INFO - Transcript for Cindy Fatika Eka wati parsed successfully.
+2025-06-27 21:18:10,301 - INFO - New student record created for: Cindy Fatika Eka wati
+2025-06-27 21:18:10,312 - INFO - Loaded 16 of 16 courses for Cindy Fatika Eka wati.
+2025-06-27 21:18:10,312 - INFO - Loaded 3 of 3 semester records for Cindy Fatika Eka wati.
+2025-06-27 21:18:10,312 - INFO - Finished processing: Cindy Fatika Ekawati_5026231039.pdf
+2025-06-27 21:18:10,312 - INFO - Now processing: Jannati Urfa Muhayat-5026231185.pdf
+2025-06-27 21:18:10,347 - INFO - Text extracted and cleaned from Jannati Urfa Muhayat-5026231185.pdf.
+2025-06-27 21:18:10,347 - INFO - Found and parsed 19 courses.
+2025-06-27 21:18:10,347 - INFO - Finished calculating 3 semester history records.
+2025-06-27 21:18:10,347 - INFO - Transcript for Jannati Urfa Muhayat parsed successfully.
+2025-06-27 21:18:10,349 - INFO - New student record created for: Jannati Urfa Muhayat
+2025-06-27 21:18:10,363 - INFO - Loaded 19 of 19 courses for Jannati Urfa Muhayat.
+2025-06-27 21:18:10,363 - INFO - Loaded 3 of 3 semester records for Jannati Urfa Muhayat.
+2025-06-27 21:18:10,363 - INFO - Finished processing: Jannati Urfa Muhayat-5026231185.pdf
+2025-06-27 21:18:10,363 - INFO - ============================================================
+2025-06-27 21:18:10,363 - INFO - ALL TASKS FINISHED
+2025-06-27 21:18:10,363 - INFO - Files processed successfully: 43
+2025-06-27 21:18:10,363 - INFO - Files that failed processing: 0
+2025-06-27 21:18:10,363 - INFO - ============================================================
+2025-06-27 21:18:10,364 - INFO - Connection to database has been closed.

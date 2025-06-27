@@ -17,28 +17,7 @@ FROM
 ORDER BY
     ipk_kumulatif DESC;
 
-
--- Insight 3: Rata-Rata IPS per Semester
--- Menganalisis tren performa akademik dengan menghitung rata-rata Indeks Prestasi Semester (IPS)
--- untuk setiap semester. IPS dihitung dengan formula: SUM(SKS * Bobot Nilai) / SUM(SKS).
-SELECT
-    w.tahun,
-    w.semester,
-    SUM(mk.sks_mk * n.bobot_nilai) / SUM(mk.sks_mk) AS rata_rata_ips
-FROM
-    Fact_Transkrip ft
-JOIN Dim_MataKuliah mk ON ft.id_mk = mk.id_mk
-JOIN Dim_Nilai n ON ft.id_nilai = n.id_nilai
-JOIN Dim_Waktu w ON ft.id_waktu = w.id_waktu
-GROUP BY
-    w.tahun,
-    w.semester
-ORDER BY
-    w.tahun,
-    w.semester;
-
-
--- Insight 4: Perbandingan IP Tahap Persiapan vs Tahap Sarjana
+-- Insight 3: Perbandingan IP Tahap Persiapan vs Tahap Sarjana
 -- Membandingkan rata-rata IP mahasiswa pada tahap persiapan dan tahap sarjana
 -- untuk melihat peningkatan atau penurunan performa.
 SELECT
@@ -50,7 +29,7 @@ WHERE
     ip_persiapan > 0 AND sks_persiapan > 0; -- Hanya hitung mahasiswa yg sudah melewati tahap persiapan
 
 
--- Insight 5: Top 5 Mata Kuliah dengan Nilai Rata-Rata Terendah
+-- Insight 4: Top 5 Mata Kuliah dengan Nilai Rata-Rata Terendah
 -- Mengidentifikasi mata kuliah yang paling menantang bagi mahasiswa berdasarkan rata-rata bobot nilai.
 SELECT
     mk.nama_mk,
@@ -67,7 +46,7 @@ ORDER BY
 LIMIT 5;
 
 
--- Insight 6: Top 5 Mata Kuliah dengan Nilai Rata-Rata Tertinggi
+-- Insight 5: Top 5 Mata Kuliah dengan Nilai Rata-Rata Tertinggi
 -- Mengidentifikasi mata kuliah di mana mahasiswa menunjukkan performa terbaik.
 SELECT
     mk.nama_mk,
@@ -84,7 +63,7 @@ ORDER BY
 LIMIT 5;
 
 
--- Insight 7: Mahasiswa yang Pernah Tidak Lulus & Tidak Mengulang
+-- Insight 6: Mahasiswa yang Pernah Tidak Lulus & Tidak Mengulang
 -- Menemukan mahasiswa yang mendapat nilai D atau E pada suatu mata kuliah dan tidak pernah
 -- mengambil ulang mata kuliah tersebut untuk memperbaikinya.
 SELECT DISTINCT
@@ -111,7 +90,7 @@ WHERE
     );
 
 
--- Insight 8: Top 5 IP Tahap Persiapan Tertinggi
+-- Insight 7: Top 5 IP Tahap Persiapan Tertinggi
 -- Menampilkan 5 mahasiswa dengan performa terbaik selama tahap persiapan studi.
 SELECT
     NRP,
@@ -124,7 +103,7 @@ ORDER BY
 LIMIT 5;
 
 
--- Insight 9: Top 5 IP Tahap Sarjana Tertinggi
+-- Insight 8: Top 5 IP Tahap Sarjana Tertinggi
 -- Menampilkan 5 mahasiswa dengan performa terbaik selama tahap sarjana.
 SELECT
     NRP,
@@ -136,7 +115,7 @@ ORDER BY
     ip_sarjana DESC
 LIMIT 5;
 
--- Insight 10: Jalur Masuk Setiap Mahasiswa
+-- Insight 9: Jalur Masuk Setiap Mahasiswa
 -- Menampilkan daftar setiap mahasiswa beserta jalur masuknya (SNBP, SNBT, Mandiri)
 -- yang ditentukan secara dinamis berdasarkan rentang NRP.
 SELECT
@@ -154,7 +133,7 @@ ORDER BY
     m.NRP;
 
 
--- Insight 11: Perbandingan Rata-Rata IPK Berdasarkan Jalur Masuk (via NRP)
+-- Insight 10: Perbandingan Rata-Rata IPK Berdasarkan Jalur Masuk (via NRP)
 -- Query ini secara dinamis mengelompokkan mahasiswa ke dalam jalur masuk
 -- menggunakan statement CASE WHEN berdasarkan rentang NRP mereka,
 -- tanpa perlu mengubah struktur tabel.
@@ -184,7 +163,7 @@ ORDER BY
     rata_rata_ipk DESC;
     
 
--- Insight 12: Kelulusan Mahasiswa di Setiap Mata Kuliah
+-- Insight 11: Kelulusan Mahasiswa di Setiap Mata Kuliah
 -- Menghitung jumlah mahasiswa yang lulus (nilai selain D dan E) dan tidak lulus (nilai D atau E)
 -- untuk setiap mata kuliah, guna mengidentifikasi mata kuliah yang paling menantang.
 SELECT
@@ -208,3 +187,101 @@ GROUP BY
     mk.id_mk, mk.kode_mk, mk.nama_mk
 ORDER BY
     jumlah_tidak_lulus DESC, jumlah_lulus ASC;
+
+-- no 12
+-- Query untuk mencari rata-rata bobot yang disumbangkan oleh setiap mata kuliah
+-- Diurutkan dari yang paling 'sulit' (rata-rata bobot terendah)
+SELECT
+    dm.nama_mk,
+    dm.sks_mk,
+    AVG(ft.bobot_matkul) AS rata_rata_bobot
+FROM
+    Fact_Transkrip ft
+JOIN
+    Dim_Matakuliah dm ON ft.id_mk = dm.id_mk
+GROUP BY
+    dm.nama_mk,
+    dm.sks_mk
+ORDER BY
+    rata_rata_bobot ASC; -- ASC untuk melihat yang tersulit, DESC untuk yang termudah
+
+-- no 13
+-- Query untuk melihat korelasi antara jumlah SKS yang diambil dengan rata-rata IPS
+-- Hasilnya bisa menunjukkan apakah beban studi berlebih mempengaruhi performa
+SELECT
+    fhs.jumlah_sks_semester,
+    COUNT(DISTINCT fhs.id_mahasiswa) AS jumlah_mahasiswa,
+    AVG(fhs.ips_semester) AS rata_rata_ips
+FROM
+    Fact_History_Semester fhs
+WHERE
+    fhs.ips_semester > 0 -- Hanya hitung semester yang sudah ada nilainya
+GROUP BY
+    fhs.jumlah_sks_semester
+ORDER BY
+    fhs.jumlah_sks_semester ASC;
+
+-- no 14
+-- Query untuk melihat tren performa (rata-rata IPS) seluruh mahasiswa berdasarkan semester
+SELECT
+    dw.semester,
+    dw.tahun,
+    AVG(fhs.ips_semester) AS rata_rata_ips_angkatan
+FROM
+    Fact_History_Semester fhs
+JOIN
+    Dim_Waktu dw ON fhs.id_waktu = dw.id_waktu
+GROUP BY
+    dw.semester,
+    dw.tahun
+ORDER BY
+    dw.tahun, dw.semester;
+    
+-- no 15
+-- Query untuk menemukan mahasiswa yang IPK-nya turun selama dua semester berturut-turut
+-- Ini adalah indikator kuat untuk 'at-risk student'
+WITH student_ipk_trend AS (
+    SELECT
+        id_mahasiswa,
+        id_waktu,
+        ipk_semester,
+        -- Mengambil IPK semester sebelumnya untuk mahasiswa yang sama
+        LAG(ipk_semester, 1, 0) OVER (PARTITION BY id_mahasiswa ORDER BY id_waktu) AS ipk_sebelumnya
+    FROM
+        Fact_History_Semester
+)
+SELECT
+    dm.nrp,
+    dm.nama_mahasiswa,
+    dw.tahun,
+    dw.semester,
+    sit.ipk_sebelumnya,
+    sit.ipk_semester
+FROM
+    student_ipk_trend sit
+JOIN
+    Dim_Mahasiswa dm ON sit.id_mahasiswa = dm.id_mahasiswa
+JOIN
+    Dim_Waktu dw ON sit.id_waktu = dw.id_waktu
+WHERE
+    sit.ipk_semester < sit.ipk_sebelumnya AND sit.ipk_sebelumnya > 0
+ORDER BY
+    dm.nrp, dw.tahun, dw.semester;
+
+-- no 16
+-- Query ini akan menggabungkan tiga tabel (Fact_Transkrip, Dim_MataKuliah, dan Dim_Nilai) untuk menghitung berapa banyak mahasiswa yang mendapatkan nilai tertentu (A, AB, B, dst.) di setiap mata kuliah.
+SELECT
+    mk.kode_mk,
+    mk.nama_mk,
+    n.huruf_nilai,
+    COUNT(ft.id_mahasiswa) AS jumlah_mahasiswa
+FROM
+    Fact_Transkrip AS ft
+JOIN
+    Dim_MataKuliah AS mk ON ft.id_mk = mk.id_mk
+JOIN
+    Dim_Nilai AS n ON ft.id_nilai = n.id_nilai
+GROUP BY
+    mk.kode_mk, mk.nama_mk, n.huruf_nilai
+ORDER BY
+    mk.nama_mk, n.huruf_nilai;
