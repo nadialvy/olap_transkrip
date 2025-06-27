@@ -240,31 +240,28 @@ ORDER BY
 -- no 15
 -- Query untuk menemukan mahasiswa yang IPK-nya turun selama dua semester berturut-turut
 -- Ini adalah indikator kuat untuk 'at-risk student'
-WITH student_ipk_trend AS (
-    SELECT
-        id_mahasiswa,
-        id_waktu,
-        ipk_semester,
-        -- Mengambil IPK semester sebelumnya untuk mahasiswa yang sama
-        LAG(ipk_semester, 1, 0) OVER (PARTITION BY id_mahasiswa ORDER BY id_waktu) AS ipk_sebelumnya
-    FROM
-        Fact_History_Semester
-)
 SELECT
     dm.nrp,
     dm.nama_mahasiswa,
     dw.tahun,
     dw.semester,
-    sit.ipk_sebelumnya,
-    sit.ipk_semester
+    (
+        SELECT fhs2.ipk_semester
+        FROM Fact_History_Semester fhs2
+        WHERE fhs2.id_mahasiswa = fhs.id_mahasiswa AND fhs2.id_waktu < fhs.id_waktu
+        ORDER BY fhs2.id_waktu DESC
+        LIMIT 1
+    ) AS ipk_sebelumnya,
+    fhs.ipk_semester
 FROM
-    student_ipk_trend sit
+    Fact_History_Semester fhs
 JOIN
-    Dim_Mahasiswa dm ON sit.id_mahasiswa = dm.id_mahasiswa
+    Dim_Mahasiswa dm ON fhs.id_mahasiswa = dm.id_mahasiswa
 JOIN
-    Dim_Waktu dw ON sit.id_waktu = dw.id_waktu
-WHERE
-    sit.ipk_semester < sit.ipk_sebelumnya AND sit.ipk_sebelumnya > 0
+    Dim_Waktu dw ON fhs.id_waktu = dw.id_waktu
+HAVING
+    ipk_sebelumnya IS NOT NULL 
+    AND fhs.ipk_semester < ipk_sebelumnya
 ORDER BY
     dm.nrp, dw.tahun, dw.semester;
 
